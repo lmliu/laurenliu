@@ -1,6 +1,6 @@
 {
   "name": "nodejs-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimal boilerplate for Node.js projects",
   "main": "server.js",
   "scripts": {
