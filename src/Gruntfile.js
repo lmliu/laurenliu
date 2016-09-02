@@ -116,7 +116,7 @@ module.exports = function(grunt) {
         'files' : {
           'src': [
             'js/**.js',
-            'sass/dluu.scss'
+            'sass/**.scss'
           ]
         },
         'customTests': []
