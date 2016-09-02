@@ -20,7 +20,9 @@ Included in the src folder is a Grunt script that I use in all my projects (with
 
 ## Thanks
 [HTML5 Boilerplate](https://html5boilerplate.com/) for the front-end boilerplate code.
+
 [Real Favicon Generator](https://realfavicongenerator.net/) for the favicon generation.
+
 [Metatags.org](http://www.metatags.org/meta_tags_code_generator) for the meta tag generation.
 
 ## Contact Me
