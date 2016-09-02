@@ -1,0 +1,38 @@
+{
+  "name": "nodejs-boilerplate",
+  "version": "0.0.1",
+  "description": "Minimal boilerplate for Node.js projects",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidcluu/Node.js-Boilerplate.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Boilerplate"
+  ],
+  "author": "David Luu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidcluu/Node.js-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/davidcluu/Node.js-Boilerplate#readme",
+
+  "dependencies": {
+    "express": "*",
+    "compression": "*",
+    "morgan": "*",
+    "serve-static": "*",
+    "body-parser": "*",
+    "express-handlebars": "*"
+  },
+
+  "engines": {
+    "node": "6.5.0",
+    "npm": "3.10.3"
+  }
+}
