@@ -45,7 +45,7 @@ var app = express();
  * Port
  */
 
-app.set('port', 3000);
+app.set('port', process.env.PORT || 3000);
 
 
 /**
