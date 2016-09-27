@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+    <head>
+        <title>Lauren Liu</title>
+
+        {{> meta}}
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="/css/normalize.min.css">
+        <link rel="stylesheet" href="/css/main.min.css">
+        <!--nav bar-->
+        {{> sidebar}}
+
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div id="project-page">
+            <div class="project-wrapper">
+                <div id ="page-image" class="page-element">
+                    <img src="/img/main-sayfr.png"></div><!--page image-->
+                <div id= "page-content">
+                    <div class="page-titles">Sayfr</div>
+                    <div id="page-subtitle">WEB ONLY</div>
+                    <div class="page-text">
+                        SAYFR is the precursor project to POLLR. Worked on the frontend of a website designed to give users information about the relative safeness of their neighborhood (restricted to San Diego county). Users may navigate an interactive map interface to view the data.
+                    </div><!--page-text-->
+                    <a href="https://sayfr.herokuapp.com"><button class="w3-btn">VISIT SITE</button></a>
+                </div><!--page-content-->
+            </div>
+        </div><!--project-page-->
+
+
+
+        <!-- JS -->
+        <script src="/js/modernizr.min.js"></script>
+        <script src="/js//jquery.min.js"></script>
+        <script src="/js/main.min.js"></script>
+
+        <!-- Google Analytics -->
+        {{> ga}}
+    </body>
+</html>

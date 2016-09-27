@@ -166,7 +166,7 @@ module.exports = function(grunt) {
   grunt.registerTask('default', ['css', 'js', 'img']);
 
   grunt.registerTask('css', ['clean:cssdist', 'sass', 'cmq', 'cssmin', 'modernizr', 'clean:build']);
-  grunt.registerTask('js', ['jshint', 'clean:jsdist', 'concat', 'uglify', 'modernizr', 'clean:build']);
+  grunt.registerTask('js', ['clean:jsdist', 'concat', 'uglify', 'modernizr', 'clean:build']);
   grunt.registerTask('img', ['clean:imgdist', 'imagemin']);
 
   grunt.registerTask('test', ['jshint']);
