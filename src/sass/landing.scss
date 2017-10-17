@@ -1,0 +1,190 @@
+/* SASS for the landing page */
+
+$monospaced: 'Andale Mono', 'Lucida Console', monospace;
+
+$min-desktop-width: 750px;
+$font-size: 1em;
+
+$project-background: #9666A3;
+
+html {
+  body {
+    height: 100%;
+    width: 100%;
+
+    section#landing {
+      height: 100%;
+      width: 100%;
+      text-align: center;
+
+      background-color: red;
+
+      div#landing-wrapper {
+          height: 100%;
+          width: 100%;
+          
+          display: flex;
+          align-items: center;
+        div#landing-text {
+          margin: 0 auto;
+
+          div#logo-border { 
+            $logo-spacing-margin: 30px;
+
+            width: 250px;
+            margin: $logo-spacing-margin auto;
+            padding: 3px 10px;
+            background-color: #000;
+            h1#landing-logo {
+              $letter-spacing: 0.25em;
+
+              margin-right: -$letter-spacing; //letter-spacing
+              
+              text-align: center;
+              
+              font-size: $font-size*2;
+              font-weight: 500;
+              color: #fff;
+              letter-spacing: $letter-spacing;
+            }
+          }
+          p#landing-description {
+            width: 90%;
+            margin: 0 auto;
+
+            font-size: $font-size*0.85;
+            color: #fff;
+
+            span {
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+
+    section#portfolio {
+
+      height: 100%;
+
+
+      div.project-wrapper {
+        height: 60%;
+        margin: 7% 0;
+        div#project-fraction {
+          position: relative;
+          margin: 0 auto;
+          top: 50%;
+          left: 3%;
+
+          span {
+            font-family: 'Andale Mono', monospace;
+            font-size: $font-size*0.7;
+          }
+        }
+
+        div.project-box-wrapper-wrapper {    
+          height: 100%;    
+
+          div.project-box-wrapper {
+            height: 100%;
+            width: 100%;
+
+            div.project-box {
+              height: 100%;
+              width: 85%;
+
+              margin: 0 auto;
+
+              display: flex;
+              justify-content: space-around;
+              align-items: center;
+
+              background-color: $project-background;
+              div#project-content {
+                >* {
+                  color: #fff;
+                }
+
+                width: 50%;
+                margin: 5%;
+
+                div.project-button-row {
+                  $spacing-var: 40px;
+                  padding: $spacing-var 0;
+                  a.portfolio-button {
+                    margin-right: $spacing-var*0.5;
+                    padding: 5px 20px;
+
+                    font-family: $monospaced;
+                    font-size: $font-size*0.8;
+                    color: #fff;
+                    background-color: #000;
+                    text-decoration: none;
+
+                    &:hover {
+                      color: $project-background;
+                      background-color: #fff;
+                      transition: color 1.5s ease 0s;
+                      transition: background-color 1.5s ease 0s;
+                    }
+                  }
+                }
+              }
+              div#project-image {
+
+              }
+              div#project-stats {
+             
+                height: 100%;
+                
+                display: flex;
+                align-items: center;
+                color: #fff;
+
+                div#project-stats-wrapper {
+
+                  div.project-stat-group {
+                    text-align: center;
+                    h5, p {
+                      font-size: $font-size*0.7;
+                    }
+
+                    p {
+                      padding-top: $font-size*0.6;;
+                      font-weight: 300;
+                      opacity: 0.7;
+                    }
+                  }
+
+                  div.project-stat-group.project-stat-notlast {
+                    padding-bottom: 40px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//DESKTOP SASS
+@media screen and (min-width : 500px) {
+  html {
+    body {
+      section#landing {
+        div#landing-wrapper {
+          div#landing-text {
+            p#landing-description {
+              width: 60%;
+              margin: 0 auto;
+            }
+          }
+
+        }
+      }
+    }
+  }
+}

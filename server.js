@@ -77,10 +77,9 @@ app.use(bodyParser.json());
 
 var router = {
   index: require('./routes/index'),
-  frank: require('./routes/frank'),
-  pollr: require('./routes/pollr'),
-  sayfr: require('./routes/sayfr'),
-  personal: require('./routes/personal'),
+  about: require('./routes/about'),
+  projectIndex: require('./routes/projectIndex'),
+  project: require('./routes/project'),
   notFound: require('./routes/404')
 };
 
@@ -90,10 +89,10 @@ var router = {
  */
 
 app.get('/', router.index.view);
-app.get('/frank', router.frank.view);
-app.get('/pollr', router.pollr.view);
-app.get('/sayfr', router.sayfr.view);
-app.get('/personal', router.personal.view);
+app.get('/about', router.about.view);
+app.get('/project-index', router.projectIndex.view);
+app.get('/project', router.project.view);
+
 // 404 Catch-all
 app.use(router.notFound.view);
 

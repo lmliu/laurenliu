@@ -1,0 +1,66 @@
+/** SASS FOR ABOUT, PROJECT INDEX PAGES */
+
+$body-width: 960px;
+$font-size: 1em;
+$box-color-1: #41BA9F;
+
+body {
+  
+  height: 100%;
+  width: 100%;
+
+  background-color: #000;
+
+  section.info-page {
+    height: 100;
+    width: $body-width;
+
+    margin: 10% auto 0 auto;
+
+    color: #fff;
+
+    h1 {
+      font-size: $font-size*2.5;
+      font-weight: 500;
+    }
+
+    div.project-index-wrapper {
+
+      margin: 10% 0;
+      display: flex;
+      justify-content: space-between;
+      div.project-index-section {
+
+        div.pi-header-box {
+          $box-width: 250px;
+          width: $box-width;
+          padding: 10px;
+          background-color: $box-color-1;
+
+          h3 {
+            text-align: center;
+
+            font-size: $font-size*0.9;
+          }
+        }
+
+        div.pi-links {
+          ul > li {
+            list-style-type: none;
+            margin: $font-size;
+
+            a {
+              opacity: 0.8;
+              color: #fff;
+              text-decoration: none;
+
+              &:hover {
+                opacity: 1;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

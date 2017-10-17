@@ -1,0 +1,68 @@
+/** GENERAL STYLES */
+
+//google fonts
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+
+$fjalla-one: 'Fjalla One', 'Futura Condensed', sans-serif;
+$avenir: 'Avenir', 'Lato', Helvetica, sans-serif;
+$montserrat: 'Montserrat', Avenir, Helvetica, sans-serif;
+$monospaced: 'Andale Mono', 'Lucida Console', monospace;
+
+$primaryColor: #eeffcc;
+
+$font-size: 1em;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100;
+
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  h1.page-title {
+    font-family: $fjalla-one;
+  }
+
+  h1.project-title {
+    font-family: $montserrat;
+    font-size: $font-size*2.3;
+    padding: 15px 0;
+  }
+
+  p.project-description {
+    font-size: $font-size*0.9;
+    opacity: 0.7;
+  }
+
+  p, h3, h5, h6, li {
+    font-family: $avenir;
+  }
+
+}
+
+div.bottom-link {
+  position: relative;
+  bottom: 10%;
+
+  a {
+    $letter-spacing: 0.25em;
+    margin-right: -$letter-spacing;
+
+    font-family: $avenir;
+    font-weight: bold;
+    color: #fff;
+    font-size: $font-size*0.3;
+    text-decoration: none;
+    letter-spacing: $letter-spacing;
+  }
+}
+

@@ -1,40 +1,31 @@
 {
-  "name": "nodejs-boilerplate",
-  "version": "1.0.1",
-  "description": "Minimal boilerplate for Node.js projects",
-  "main": "server.js",
+  "name": "laurenmliu",
+  "version": "1.0.0",
+  "description": "Personal Site",
+  "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "dev": "grunt watch & nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davidcluu/Node.js-Boilerplate.git"
+    "url": "git+https://github.com/lmliu/laurenliu.git"
   },
-  "keywords": [
-    "Node.js",
-    "Boilerplate"
-  ],
-  "author": "David Luu",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/davidcluu/Node.js-Boilerplate/issues"
+    "url": "https://github.com/lmliu/laurenliu/issues"
   },
-  "homepage": "https://github.com/davidcluu/Node.js-Boilerplate#readme",
-
+  "homepage": "https://github.com/lmliu/laurenliu#readme",
   "dependencies": {
-    "grunt": "^1.0.1",
-
-    "express": "*",
-    "compression": "*",
-    "morgan": "*",
-    "serve-static": "*",
     "body-parser": "*",
-    "express-handlebars": "*"
-  },
-
-  "engines": {
-    "node": "6.5.0",
-    "npm": "3.10.3"
+    "compression": "*",
+    "express": "*",
+    "express-handlebars": "*",
+    "grunt": "^1.0.1",
+    "morgan": "*",
+    "normalize-scss": "^6.0.0",
+    "serve-static": "*"
   }
 }
