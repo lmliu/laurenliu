@@ -2,6 +2,7 @@
 
 $monospaced: 'Andale Mono', 'Lucida Console', monospace;
 
+$btn-ease-timing: 1.5s;
 $min-desktop-width: 750px;
 $font-size: 1em;
 
@@ -73,9 +74,8 @@ html {
         margin: 7% 0;
         div#project-fraction {
           position: relative;
-          margin: 0 auto;
           top: 50%;
-          left: 3%;
+          left: 7%;
 
           span {
             font-family: 'Andale Mono', monospace;
@@ -92,7 +92,7 @@ html {
 
             div.project-box {
               height: 100%;
-              width: 85%;
+              width: 1000px;
 
               margin: 0 auto;
 
@@ -125,8 +125,8 @@ html {
                     &:hover {
                       color: $project-background;
                       background-color: #fff;
-                      transition: color 1.5s ease 0s;
-                      transition: background-color 1.5s ease 0s;
+                      transition: color $btn-ease-timing ease 0s;
+                      transition: background-color $btn-ease-timing ease 0s;
                     }
                   }
                 }
