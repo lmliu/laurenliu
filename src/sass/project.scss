@@ -1,72 +1,125 @@
-/** SASS FOR PROJECT VIEW */
+/**SASS FOR PROJECT PAGE */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+@import url(https://fonts.googleapis.com/css?family=Lato);
 
+$montserrat: 'Montserrat', Avenir, Helvetica, sans-serif;
 $avenir: 'Avenir', 'Lato', Helvetica, sans-serif;
 $monospaced: 'Andale Mono', 'Lucida Console', monospace;
 
-$btn-ease-timing: 1.5s;
-$project-background: #9666A3;
-$left-side-color: #fff; //font color for left
+$left-side-width-desktop: 450px;
 
 $font-size: 1em;
+$project-background: #9666A3;
+
+//general sub-header paragraph margin
+$header-par-marg: 5px;
+
+//right side spacing margins
+$r-spac-marg: 80px;
+
+//right side detail section
+$ds-marg-b: 20px;
+$dets-expd-h2-marg: 20px;
+
+$section-spacing: 50px;
+
+
+//paragraph opacity
+$p-opacity: 0.6; 
+
+//paragraph36eft-margin
+$p-l-marg: 36px;
+
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   height: 100%;
   width: 100%;
-
   section.project {
-    $left-side-width: 400px;
-
     height: 100%;
     width: 100%;
 
-    div.left-side {
-      height: 100%;
-      width: $left-side-width;
-      margin: 0 auto;
-      background-color: $project-background;
+    display: grid;
+    grid-template-columns: $left-side-width-desktop auto;
 
-      position: fixed;
+
+    div.project-section {
+      margin-bottom: $section-spacing;
+    }
+
+    div.left-side {
 
       div#left-side-content {
+        $element-color: #fff;
+
+        height: 100%;
         width: 100%;
-        div.left-element {
+        background-color: $project-background;
+
+
+        a#project-back-link {
+          position: fixed;
+          
+          top: 80px;
+          left: 50px;
+
+          color: $element-color;
+          font-family: $avenir;
+          font-size: $font-size*0.8;
+          font-weight: 700;
+          text-decoration: none;
+          text-transform: uppercase;
+          opacity: 0.8;
+
+          z-index: 10;
+
+          &:hover {
+            opacity: 1;
+            transition: opacity 1s ease 0s;
+          }
+        }
+        div#left-side-flex {
+          height: 100%;
           width: 100%;
-          img {
-            margin: 100px;
-            margin-bottom: 40px;
-          }
-          a {
+          width: $left-side-width-desktop;
+          position: fixed;
 
-            color: $left-side-color;
-            text-decoration: none;
-            text-transform: uppercase;
-          }
+          div#left-side-flex-vert-align {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            div#left-side-flex-wrap {
+              width: 100%;
+              div.left-element {
 
-          a#project-back-link {
-            font-family: $avenir;
-            font-size: $font-size*0.7;
-            font-weight: 600;
-          }
+                div.l-elem-flex-wrap {
+                  display: flex;
+                  justify-content: center;
 
-          a#project-visit-site {
+                  a#project-visit-site {
+                    padding: 5px 15px;
 
-            padding: 5px 15px;
-            
-            position: fixed;
+                    color: $element-color;
+                    font-family: $monospaced;
+                    font-size: $font-size*0.7;
+                    text-decoration: none;
+                    text-transform: uppercase;
 
-            left: 14.05%;
-            transform: translate(-50%, 0);
+                    border: 1px solid $element-color;
 
-            font-family: $monospaced;
-            font-size: $font-size*0.6;
-
-            border: 1px solid $left-side-color;
-            opacity: 0.8;
-
-            &:hover {
-              color: $project-background;
-              background-color: $left-side-color;
-              opacity: 1;
+                    &:hover {
+                      color: $project-background;
+                      background-color: $element-color;
+                      transition: color 1s ease 0s;
+                      transition: background-color 1s ease 0s;
+                    }
+                  }
+                }
+              }
             }
           }
         }
@@ -74,13 +127,85 @@ body {
     }
 
     div.right-side {
-      $between-margin: 20px;
-      width: 60%;
-      color: black;
+      max-width: 850px;
+      margin: $r-spac-marg;
 
-      position: relative;
-      left: $left-side-width;
-      margin-left: 5%;
+      div.details-year-wrapper {
+        margin-bottom: $section-spacing;
+
+        display: flex;
+        //justify-content: flex-end;
+
+        p.details-year {
+          width: 40px;
+          padding: 5px 10px;
+
+          color: #fff;
+          font-size: $font-size*0.8;
+          font-weight: 500;
+          letter-spacing: $font-size*0.3;
+          background-color: black;
+        }
+      }
+
+      div#details-header {
+        h1 {
+          margin-bottom: 15px;
+          color: $project-background;
+          font-family: $montserrat;
+          font-size: $font-size*3;
+        }
+
+        p#details-labels {
+          margin-bottom: $header-par-marg; 
+          font-size: $font-size*0.8;
+          font-weight: 900;
+          text-transform: uppercase;
+        }
+
+        p#details-description {
+          opacity: $p-opacity;
+        }
+      }
+
+      div#details-expanded {
+        h2.details-expanded-header {
+          margin-bottom: $dets-expd-h2-marg;
+
+          font-size: $font-size*1.2;
+          font-family: $avenir;
+          font-weight: 900;
+          text-transform: uppercase;
+        }
+
+
+        div#at-a-glance {
+          ul#glance-ul {
+            margin-left: $p-l-marg;
+            li {
+              margin: $header-par-marg 0;
+              p {
+                opacity: $p-opacity;
+                span {
+                  font-weight: 700;
+                }
+              }
+            }
+          }
+        }
+
+        div#more-details {
+          div.detail-section {
+            margin: 0 0 $ds-marg-b $p-l-marg;
+            h3 {
+              margin-bottom: $header-par-marg;
+            }
+            p {
+              opacity: $p-opacity;
+            }
+          }
+        }
+      }
     }
   }
 }

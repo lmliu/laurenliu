@@ -10,63 +10,86 @@
   <section class="project">
     <div class="left-side">
       <div id="left-side-content">
-        <div id="proj-link" class="left-element">
-          <a id="project-back-link" href="/#portfolio">&laquo; back to main</a>
+        <div id="proj-link">
+          <a id="project-back-link" href="/#portfolio">&laquo; back to portfolio</a>
         </div><!-- #proj-link.left-element -->
-        <div id="proj-img" class="left-element">
-          <img src="/img/preview-frank.png" alt="project name" />
-        </div><!-- #proj-img.left-element -->
-        <div id="proj-btn" class="left-element">
-          <a id="project-visit-site" href="" target="_blank" ref="noopener noreferrer">Visit Site</a>
-        </div><!-- #proj-btn.left-element -->
+        <div id="left-side-flex">
+          <div id="left-side-flex-vert-align">
+            <div id="left-side-flex-wrap">
+              <div id="proj-img" class="left-element">
+                <div class="l-elem-flex-wrap">
+                  <img src="/img/preview-frank.png" alt="project name" />
+                </div><!-- .l-elem-flex-wrap -->
+              </div><!-- #proj-img.left-element -->
+              <br />
+              <div id="proj-btn" class="left-element">
+                <div class="l-elem-flex-wrap">
+                  <a id="project-visit-site" href="" target="_blank" rel="noopener noreferrer">Visit Site</a>
+                </div><!-- .l-elem-flex-wrap -->
+              </div><!-- #proj-btn.left-element -->
+            </div><!-- #left-side-flex-wrap -->  
+          </div><!-- #left-side-flex-vert-align -->
+        </div><!-- #left-side-flex -->
       </div><!-- #left-side-content -->
     </div><!-- .left-side -->
 
     <div class="right-side">
-      <p class="details-year">2015</p>
-      <div id="details-header">
+      <div class="details-year-wrapper">
+        <p class="details-year">2015</p>
+      </div><!-- .details-year-wrapper -->
+      <div id="details-header" class="project-section">
         <h1>Example Project</h1>
-        <p>DETAILS FUN DETAILS</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        <p id="details-labels">DESIGN+DEVELOPMENT, MOBILE WEBSITE</p>
+        <p id="details-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
         Mauris rhoncus semper tortor, eu pellentesque est lacinia sodales.</p>
       </div><!-- #details-header -->
 
-      <div id="at-a-glance">
-        <h2>At a Glance &mdash;</h2>
-        <ul id="glance-ul">
-          <li>
-            <span class="glance-category">Tech Used: </span>
-            <span>x, y, z</span>
-          </li>
-          <li>
-            <span class="glance-category">Lesson(s) Learned: </span>
-            <span>low latency is king, and it’s hard to have it all. tradeoffs in site speed are usually made at the expense of code complexity or aesthetics. also dropshadows and google fonts? suprisingly expensive.</span>
-          </li>
-          <li>
-            <span class="glance-category">Tech Used:</span>
-            <span>x, y, z</span>
-          </li>
-      </div><!-- #at-a-glance -->
 
-      <div id="more-details">
-        <h2>A More Detailed Look &mdash;</h2>
-        
-        <div id="the-goal" class="detail-section">
-          <h3>The Goal</h3>
-          <p>Lorem Khaled Ipsum is a major key to success. We don’t see them, we will never see them. To succeed you must believe. When you believe, you will succeed. You do know, you do know that they don’t want you to have lunch. I’m keeping it real with you, so what you going do is have lunch. Surround yourself with angels. Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started.</p>
-        </div><!-- .detail-section -->
+      <div id="details-expanded">
+        <div id="at-a-glance" class="project-section">
+          <h2 class="details-expanded-header">At a Glance &mdash;</h2>
+          <ul id="glance-ul">
+            <li>
+              <p>
+                <span class="glance-category">Tech Used: </span>
+                x, y, z
+              </p>
+            </li>
+            <li>
+              <p>
+                <span class="glance-category">Tech Used: </span>
+                 they don’t want you to smile. The key is to drink coconut, fresh coconut, trust me.
+              </p>
+            </li>
+            <li>
+              <p>
+                <span class="glance-category">Tech Used: </span>
+                Lorem Khaled Ipsum is a major key to success. Hammock talk come soon. Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started. Let me be clear, you have to make it through the jungle to make it to paradise, that’s the key, Lion! The key is to enjoy life, because they don’t want 
+              </p>
+            </li>
+          </ul>
+        </div><!-- #at-a-glance -->
 
-        <div id="the-process" class="detail-section">
-          <h3>The Process</h3>
-          <p>Lorem Khaled Ipsum is a major key to success. We don’t see them, we will never see them. To succeed you must believe. When you believe, you will succeed. You do know, you do know that they don’t want you to have lunch. I’m keeping it real with you, so what you going do is have lunch. Surround yourself with angels. Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started.</p>
-        </div><!-- .detail-section -->
+        <div id="more-details" class="project-section">
+          <h2 class="details-expanded-header">A More Detailed Look &mdash;</h2>
+          
+          <div id="the-goal" class="detail-section">
+            <h3>The Goal</h3>
+            <p>Lorem Khaled Ipsum is a major key to success. We don’t see them, we will never see them. To succeed you must believe. When you believe, you will succeed. You do know, you do know that they don’t want you to have lunch. I’m keeping it real with you, so what you going do is have lunch. Surround yourself with angels. Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started.</p>
+          </div><!-- .detail-section -->
 
-        <div id="the-takeaway" class="detail-section">
-          <h3>The Takeaway</h3>
-          <p>Lorem Khaled Ipsum is a major key to success. We don’t see them, we will never see them. To succeed you must believe. When you believe, you will succeed. You do know, you do know that they don’t want you to have lunch. I’m keeping it real with you, so what you going do is have lunch. Surround yourself with angels. Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started.</p>
-        </div><!-- .detail-section -->
+          <div id="the-process" class="detail-section">
+            <h3>The Process</h3>
+            <p>Lorem Khaled Ipsum is a major key to success. We don’t see them, we will never see them. To succeed you must believe. When you believe, you will succeed. You do know, you do know that they don’t want you to have lunch. I’m keeping it real with you, so what you going do is have lunch. Surround yourself with angels. Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started.</p>
+          </div><!-- .detail-section -->
 
-      </div><!-- #more-details -->
+          <div id="the-takeaway" class="detail-section">
+            <h3>The Takeaway</h3>
+            <p>Lorem Khaled Ipsum is a major key to success. We don’t see them, we will never see them. To succeed you must believe. When you believe, you will succeed. You do know, you do know that they don’t want you to have lunch. I’m keeping it real with you, so what you going do is have lunch. Surround yourself with angels. Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started.</p>
+          </div><!-- .detail-section -->
+
+        </div><!-- #more-details -->
+      </div><!-- #details-expanded -->
 
     </div><!-- .right-side -->
   </section>

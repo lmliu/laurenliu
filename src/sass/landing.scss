@@ -2,11 +2,14 @@
 
 $monospaced: 'Andale Mono', 'Lucida Console', monospace;
 
-$btn-ease-timing: 1.5s;
+$btn-ease-timing: 1s;
 $min-desktop-width: 750px;
 $font-size: 1em;
 
 $project-background: #9666A3;
+$project-background-d4sd: rgb(68, 150, 255);
+$project-background-dopelst: rgb(218, 112, 80);
+
 
 html {
   body {
@@ -18,7 +21,8 @@ html {
       width: 100%;
       text-align: center;
 
-      background-color: red;
+      background-image: url("/img/background-img.jpg");
+      background-size: cover;
 
       div#landing-wrapper {
           height: 100%;
@@ -71,7 +75,7 @@ html {
 
       div.project-wrapper {
         height: 60%;
-        margin: 7% 0;
+        margin: 10% 0;
         div#project-fraction {
           position: relative;
           top: 50%;
@@ -89,6 +93,17 @@ html {
           div.project-box-wrapper {
             height: 100%;
             width: 100%;
+            
+            div#d4sd {
+              background-color: $project-background-d4sd;
+            }
+
+            div#dopeLst {
+              background-color: $project-background-dopelst;
+            }
+            div#frank {
+              background-color: $project-background;
+            }
 
             div.project-box {
               height: 100%;
@@ -100,7 +115,6 @@ html {
               justify-content: space-around;
               align-items: center;
 
-              background-color: $project-background;
               div#project-content {
                 >* {
                   color: #fff;
@@ -123,7 +137,7 @@ html {
                     text-decoration: none;
 
                     &:hover {
-                      color: $project-background;
+                      color: #000;
                       background-color: #fff;
                       transition: color $btn-ease-timing ease 0s;
                       transition: background-color $btn-ease-timing ease 0s;
