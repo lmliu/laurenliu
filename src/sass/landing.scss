@@ -21,8 +21,8 @@ html {
       width: 100%;
       text-align: center;
 
-      background-image: url("/img/background-img.jpg");
-      background-size: cover;
+      //background-image: url("/img/background-img.jpg");
+      //background-size: cover;
 
       div#landing-wrapper {
           height: 100%;
@@ -57,8 +57,10 @@ html {
             width: 90%;
             margin: 0 auto;
 
-            font-size: $font-size*0.85;
-            color: #fff;
+            font-size: $font-size;
+            color: #000;
+
+            opacity: 0.6;
 
             span {
               font-weight: bold;
@@ -180,6 +182,12 @@ html {
           }
         }
       }
+    }
+
+    footer {
+      position: relative;
+      bottom: 0;
+      color: #000;
     }
   }
 }

@@ -1,7 +1,7 @@
 $hover-color: #9EDF6E;
 $fjalla-one: 'Fjalla One', 'Futura Condensed', sans-serif;
 $navbar-size: 0.7em;
-$navbar-padding: 25px;
+$navbar-padding: 30px;
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ nav {
   position: fixed;
   transform: rotate(90deg);
   top: 50%;
-  right: -140px;
+  right: -40px;
 
   div#nav-items {
     display: flex;

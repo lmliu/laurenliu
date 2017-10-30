@@ -201,7 +201,13 @@ body {
               margin-bottom: $header-par-marg;
             }
             p {
+              margin-bottom: $header-par-marg;
               opacity: $p-opacity;
+            }
+
+            img.yes {
+              width: 100%;
+              margin-bottom: $p-l-marg;
             }
           }
         }
