@@ -109,72 +109,85 @@ html {
 
             div.project-box {
               height: 100%;
-              width: 1000px;
+              width: 950px;
 
               margin: 0 auto;
 
-              display: flex;
-              justify-content: space-around;
-              align-items: center;
-
-              div#project-content {
-                >* {
-                  color: #fff;
-                }
-
-                width: 50%;
-                margin: 5%;
-
-                div.project-button-row {
-                  $spacing-var: 40px;
-                  padding: $spacing-var 0;
-                  a.portfolio-button {
-                    margin-right: $spacing-var*0.5;
-                    padding: 5px 20px;
-
-                    font-family: $monospaced;
-                    font-size: $font-size*0.8;
-                    color: #fff;
-                    background-color: #000;
-                    text-decoration: none;
-
-                    &:hover {
-                      color: #000;
-                      background-color: #fff;
-                      transition: color $btn-ease-timing ease 0s;
-                      transition: background-color $btn-ease-timing ease 0s;
-                    }
-                  }
-                }
-              }
-              div#project-image {
-
-              }
-              div#project-stats {
-             
+              div#project-box-wrap {
+                $project-width: 90%;
                 height: 100%;
+                width: $project-width;
                 
-                display: flex;
-                align-items: center;
-                color: #fff;
+                margin: 0 (100-$project-width)/2;
 
-                div#project-stats-wrapper {
+                display: grid;
+                grid-template-columns: 4fr 2.5fr 1fr;
 
-                  div.project-stat-group {
-                    text-align: center;
-                    h5, p {
-                      font-size: $font-size*0.7;
-                    }
-
-                    p {
-                      padding-top: $font-size*0.6;;
-                      font-weight: 300;
-                      opacity: 0.7;
-                    }
+                div#project-content {
+                  >* {
+                    color: #fff;
                   }
 
-                  div.project-stat-group.project-stat-notlast {
-                    padding-bottom: 40px;
+                  display: flex;
+                  align-items: center;
+
+                  div#project-content-wrap {
+                    div.project-button-row {
+                      $spacing-var: 40px;
+                      padding: $spacing-var 0;
+                      a.portfolio-button {
+                        margin-right: $spacing-var*0.5;
+                        padding: 5px 20px;
+
+                        font-family: $monospaced;
+                        font-size: $font-size*0.8;
+                        color: #fff;
+                        background-color: #000;
+                        text-decoration: none;
+
+                        &:hover {
+                          color: #000;
+                          background-color: #fff;
+                          transition: color $btn-ease-timing ease 0s;
+                          transition: background-color $btn-ease-timing ease 0s;
+                        }
+                      }
+                    }
+                  }
+                }
+                div#project-image {
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+
+                }
+                div#project-stats {
+               
+                  height: 100%;
+                  
+                  display: flex;
+                  align-items: center;
+                  justify-content: flex-end;
+                  color: #fff;
+
+                  div#project-stats-wrapper {
+
+                    div.project-stat-group {
+                      text-align: center;
+                      h5, p {
+                        font-size: $font-size*0.7;
+                      }
+
+                      p {
+                        padding-top: $font-size*0.6;;
+                        font-weight: 300;
+                        opacity: 0.7;
+                      }
+                    }
+
+                    div.project-stat-group.project-stat-notlast {
+                      padding-bottom: 40px;
+                    }
                   }
                 }
               }
