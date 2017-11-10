@@ -18,7 +18,7 @@
             <div id="left-side-flex-wrap">
               <div id="proj-img" class="left-element">
                 <div class="l-elem-flex-wrap">
-                  <img src="/img/preview-frank.png" alt="project name" />
+                  <img src={{leftImgPath}} alt={{projectTitle}} />
                 </div><!-- .l-elem-flex-wrap -->
               </div><!-- #proj-img.left-element -->
               <br />
@@ -35,69 +35,47 @@
 
     <div class="right-side">
       <div class="details-year-wrapper">
-        <p class="details-year">2015</p>
+        <p class="details-year">{{year}}</p>
       </div><!-- .details-year-wrapper -->
       <div id="details-header" class="project-section">
-        <h1>Frank</h1>
-        <p id="details-labels">DESIGN+DEVELOPMENT, WEBSITE (MOBILE VIEW ONLY)</p>
-        <p id="details-description">Frank is social network application designed to help users
-        improve their fashion. Users can post photos of their clothes and recieve brutally honest
-        critiques in the form of either upvotes or comments.</p>
+        <h1>{{projectTitle}}</h1>
+        <p id="details-labels">{{detLabels}}</p>
+        <p id="details-description">{{detDescr}}</p>
       </div><!-- #details-header -->
 
 
       <div id="details-expanded">
-        <div id="at-a-glance" class="project-section">
-          <h2 class="details-expanded-header">At a Glance &mdash;</h2>
-          <ul id="glance-ul">
-            <li>
-              <p>
-                <span class="glance-category">Tech Used: </span>
-                HTML, CSS, JavaScript, Node.js, Photoshop, Illustrator, Bootstrap
-              </p>
-            </li>
-            <li>
-              <p>
-                <span class="glance-category">Main Takeaway: </span>
-                 It's difficult to know what users want. Needfinding is extremely useful for constructings apps that solve novel problems in the most human-friendly way. 
-              </p>
-            </li>
-            <li>
-              <p>
-                <span class="glance-category">Team Demographics: </span>
-                 3 Developers
-              </p>
-            </li>
-          </ul>
-        </div><!-- #at-a-glance -->
+        {{#if atAGlance}}
+          <div id="at-a-glance" class="project-section">
+            <h2 class="details-expanded-header">At a Glance &mdash;</h2>
+            <ul id="glance-ul">
+              {{#each atAGlance}}
+                <li class="glance-li">
+                  <p>
+                    <span class="glance-category">{{glanceTitle}}</span>
+                    {{glanceDet}}
+                  </p>
+                </li>
+              {{/each}}
+            </ul>
+          </div><!-- #at-a-glance -->
+        {{/if}}
 
-        <div id="more-details" class="project-section">
-          <h2 class="details-expanded-header">A More Detailed Look &mdash;</h2>
-          
-          <div id="the-goal" class="detail-section">
-            <h3>The Goal</h3>
-            <p>Our goal was to build an mobile site that had transactional functionality. We were given the constraints that it must be a website that acted like a mobile app, it had some sort of database-related functionality, and that the features would come from extensive needfinding.</p>
-            <p>Given these constraints, and based on prelimiary needfinding, we decided a clothing-critique app met the requirements for the the project.</p>
-          </div><!-- .detail-section -->
+        {{#if moreDet}}
+          <div id="more-details" class="project-section">
+            <h2 class="details-expanded-header">A More Detailed Look &mdash;</h2>
+            
+            {{#each moreDet}}
+              <div id="the-goal" class="detail-section">
+                <h3>{{moreDetTitle}}</h3>
+                {{#each moreDetContent}}
+                  <p>{{this}}</p>
+                {{/each}}
+              </div><!-- .detail-section -->
+            {{/each}}
 
-          <div id="the-process" class="detail-section">
-            <h3>Storyboards</h3>
-            <img class="yes" src="/img/frank-storyboards.png" />
-            <h3>Lofi Prototypes</h3>
-            <img class="yes" src="/img/frank-prototypes.png" />
-            <h3>Hifi Prototypes</h3>
-            <img class="yes" src="/img/frank-hifi.png" />
-            <h3>User Testing</h3>
-            <img class="yes" src="/img/frank-user-testing.png" />
-
-          </div><!-- .detail-section -->
-
-          <div id="the-takeaway" class="detail-section">
-            <h3>The Takeaway</h3>
-            <p>Frank was the first HCI-focused application I worked on. I learned about the importance of user testing and needfinding. There were a few features we included, such as anonymous login, due to feedback we got from users. There were some improvements we could have made, for instance we could have enhanced the user profiles, however we ran out of time.</p>
-          </div><!-- .detail-section -->
-
-        </div><!-- #more-details -->
+          </div><!-- #more-details -->
+        {{/if}}
       </div><!-- #details-expanded -->
 
     </div><!-- .right-side -->

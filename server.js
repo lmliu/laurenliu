@@ -91,7 +91,7 @@ var router = {
 app.get('/', router.index.view);
 app.get('/about', router.about.view);
 app.get('/project-index', router.projectIndex.view);
-app.get('/project', router.project.view);
+app.get('/project/:bkgClass', router.project.view);
 
 // 404 Catch-all
 app.use(router.notFound.view);

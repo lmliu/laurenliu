@@ -30,128 +30,61 @@
   </section><!-- #landing -->
   <section id="portfolio">
 
-    <div class="project-wrapper">
-      <div class="project-box-wrapper-wrapper">
-        <div class="project-box-wrapper">
-          <div id="d4sd" class="project-box">
-            <div id="project-box-wrap">
-              <div id="project-content">
-                <div id="project-content-wrap">
-                  <h1 class="project-title">D4SD</h1>
-                  <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus semper tortor, eu pellentesque est lacinia sodales.</p>
-                  <div class="project-button-row">
-                    <!--<a class="portfolio-button" href="">MORE INFO</a>-->
-                    <a class="portfolio-button" href="https://d4sd.org" target="_blank" rel="noopener noreferrer">SITE LINK</a>
-                  </div><!--project-button-row-->
-                </div><!-- #project-content-wrap -->
-              </div><!-- .project-content -->
-              <div id="project-image">
-                <img src="/img/preview-d4sd.png" alt="name" />
-              </div><!-- .project-image -->
-              <div id="project-stats">
-                <div id="project-stats-wrapper">
-                  <div class="project-stat-group project-stat-notlast">
-                    <h5>ROLE</h5>
-                    <p>Developer</p>
-                    <p>Designer</p>
-                  </div><!-- .project-stat-group -->
-                  <div class="project-stat-group project-stat-notlast">
-                    <h5>YEAR</h5>
-                    <p>2016-2017</p>
-                  </div><!-- .project-stat-group -->
-                  <div class="project-stat-group">
-                    <h5>TYPE</h5>
-                    <p>Web</p>
-                  </div><!-- .project-stat-group -->
-                </div><!-- #project-stats-wrapper -->
-              </div><!-- #project-stats -->
-            </div><!-- #project-box-wrap -->
-          </div><!-- .project -->
-        </div><!-- .project-wrapper -->
-      </div><!-- .project-box-wrapper-wrapper -->
-    </div><!-- .project-wrapper -->
+    {{#each projects}}
+      <div class="project-wrapper">
+        <div class="project-box-wrapper-wrapper">
+          <div class="project-box-wrapper">
+            <div id={{bkgClass}} class="project-box">
+              <div id="project-box-wrap">
+                <div id="project-content">
+                  <div id="project-content-wrap">
+                    <p class="tag">{{tag}}</p><!-- .tag -->
+                    <h1 class="project-title">{{projectTitle}}</h1>
+                    <p class="project-description">&mdash; {{projectDesc}}</p>
+                    <div class="project-button-row">
+                      {{#if infoPath}}
+                        <a class="portfolio-button" href="/project/{{bkgClass}}">MORE INFO</a>
+                      {{/if}}
+                      {{#if siteLink}}
+                        <a class="portfolio-button" href={{siteLink}} target="_blank" rel="noopener noreferrer">SITE LINK</a>
+                      {{/if}}
+                    </div><!--project-button-row-->
+                  </div><!-- #project-content-wrap -->
+                </div><!-- .project-content -->
+                <div id="project-image">
+                  <img src={{imgPath}} alt={{projectTitle}} />
+                </div><!-- .project-image -->
+                <div id="project-stats">
+                  <div id="project-stats-wrapper">
+                    <div class="project-stat-group project-stat-notlast">
+                      <h5>ROLES</h5>
+                      <div class="stat-details">
+                        {{#each roles}}
+                          <p>{{this}}</p>
+                        {{/each}}
+                      </div><!-- .stat-details -->
+                    </div><!-- .project-stat-group -->
+                    <div class="project-stat-group project-stat-notlast">
+                      <h5>YEAR</h5>
+                      <div class="stat-details">
+                        <p>{{year}}</p>
+                      </div><!-- .stat-details -->
+                    </div><!-- .project-stat-group -->
+                    <div class="project-stat-group">
+                      <h5>TYPE</h5>
+                      <div class="stat-details">
+                        <p>{{type}}</p>
+                      </div><!-- .stat-details -->
+                    </div><!-- .project-stat-group -->
+                  </div><!-- #project-stats-wrapper -->
+                </div><!-- #project-stats -->
+              </div><!-- #project-box-wrap -->
+            </div><!-- .project -->
+          </div><!-- .project-wrapper -->
+        </div><!-- .project-box-wrapper-wrapper -->
+      </div><!-- .project-wrapper -->
+    {{/each}}
 
-    <div class="project-wrapper">
-      <div class="project-box-wrapper-wrapper">
-        <div class="project-box-wrapper">
-          <div id="dopeLst" class="project-box">
-            <div id="project-box-wrap">
-              <div id="project-content">
-                <div id="project-content-wrap">
-                  <h1 class="project-title">dopeLst</h1>
-                  <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus semper tortor, eu pellentesque est lacinia sodales.</p>
-                  <div class="project-button-row">
-                    <!--<a class="portfolio-button" href="">MORE INFO</a>-->
-                    <a class="portfolio-button" href="https://d4sd.org" target="_blank" rel="noopener noreferrer">SITE LINK</a>
-                  </div><!--project-button-row-->
-                </div><!-- #project-content-wrap -->
-              </div><!-- .project-content -->
-              <div id="project-image">
-                <img src="/img/preview-dope.png" alt="name" />
-              </div><!-- .project-image -->
-              <div id="project-stats">
-                <div id="project-stats-wrapper">
-                  <div class="project-stat-group project-stat-notlast">
-                    <h5>ROLE</h5>
-                    <p>Developer</p>
-                    <p>Designer</p>
-                  </div><!-- .project-stat-group -->
-                  <div class="project-stat-group project-stat-notlast">
-                    <h5>YEAR</h5>
-                    <p>2017</p>
-                  </div><!-- .project-stat-group -->
-                  <div class="project-stat-group">
-                    <h5>TYPE</h5>
-                  <p>Web (PWA)</p>
-                  </div><!-- .project-stat-group -->
-                </div><!-- #project-stats-wrapper -->
-              </div><!-- #project-stats -->
-            </div><!-- #project-box-wrap -->
-          </div><!-- .project -->
-        </div><!-- .project-wrapper -->
-      </div><!-- .project-box-wrapper-wrapper -->
-    </div><!-- .project-wrapper -->
-
-    <div class="project-wrapper">
-      <div class="project-box-wrapper-wrapper">
-        <div class="project-box-wrapper">
-          <div id="frank" class="project-box">
-            <div id="project-box-wrap">
-              <div id="project-content">
-                <div id="project-content-wrap">
-                  <h1 class="project-title">Frank</h1>
-                  <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus semper tortor, eu pellentesque est lacinia sodales.</p>
-                  <div class="project-button-row">
-                    <a class="portfolio-button" href="/project">MORE INFO</a>
-                    <a class="portfolio-button" href="https://d4sd.org" target="_blank" rel="noopener noreferrer">SITE LINK</a>
-                  </div><!--project-button-row-->
-                </div><!-- #project-content-wrap -->
-              </div><!-- .project-content -->
-              <div id="project-image">
-                <img src="/img/preview-frank.png" alt="name" />
-              </div><!-- .project-image -->
-              <div id="project-stats">
-                <div id="project-stats-wrapper">
-                  <div class="project-stat-group project-stat-notlast">
-                    <h5>ROLE</h5>
-                    <p>Designer</p>
-                  </div><!-- .project-stat-group -->
-                  <div class="project-stat-group project-stat-notlast">
-                    <h5>YEAR</h5>
-                    <p>2015</p>
-                  </div><!-- .project-stat-group -->
-                  <div class="project-stat-group">
-                    <h5>TYPE</h5>
-                    <p>Web</p>
-                    <p>(Mobile Only)</p>
-                  </div><!-- .project-stat-group -->
-                </div><!-- #project-stats-wrapper -->
-              </div><!-- #project-stats -->
-            </div><!-- #project-box-wrap -->
-          </div><!-- .project -->
-        </div><!-- .project-wrapper -->
-      </div><!-- .project-box-wrapper-wrapper -->
-    </div><!-- .project-wrapper -->
 
   </section><!-- #portfolio -->
 </body>

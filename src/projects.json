@@ -1,0 +1,35 @@
+{
+  "projects": 
+  [
+    {
+      "bkgClass": "frank",
+      "year": "2015",
+      "projectTitle": "Frank",
+      "detLabels": "DESIGN+DEVELOPMENT, WEBSITE (MOBILE VIEW ONLY)",
+      "detDescr": "Frank is social network application designed to help users improve their fashion. Users can post photos of their clothes and recieve brutally honest critiques in the form of either upvotes or comments.",
+      "leftImgPath": "/img/preview-frank.png", 
+      "atAGlance": [
+        {
+          "glanceTitle": "Tech Used",
+          "glanceDet": "HTML, CSS, JavaScript, Node.js, Photoshop, Illustrator, Bootstrap"
+        },
+        {
+          "glanceTitle": "Main Takeaway: ",
+          "glanceDet": " It's difficult to know what users want. Needfinding is extremely useful for constructings apps that solve novel problems in the most human-friendly way."
+        }
+      ],
+      "moreDet": 
+      [
+        {
+          "moreDetTitle": "Storyboards",
+          "moreDetContent": 
+          [
+            "lksjdafksjd",
+            "lakjsflds",
+            "lakjdsflasj"
+          ]
+        }
+      ]
+    }
+  ]
+}

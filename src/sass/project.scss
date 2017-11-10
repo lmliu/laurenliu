@@ -166,6 +166,10 @@ body {
         p#details-description {
           opacity: $p-opacity;
         }
+
+        p#details-labels {
+          text-transform: uppercase; 
+        }
       }
 
       div#details-expanded {
