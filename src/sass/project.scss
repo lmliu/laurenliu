@@ -28,7 +28,7 @@ $section-spacing: 50px;
 $p-opacity: 0.6; 
 
 //paragraph36eft-margin
-$p-l-marg: 36px;
+$p-l-marg: 5%;
 
 $max-width-m: 600px;
 
@@ -59,32 +59,43 @@ body {
     div.left-side {
 
       div#left-side-content {
+
         $element-color: #fff;
+        $element-color-m: #000;
 
         height: 100%;
         width: 100%;
+        
         background-color: $project-background;
 
-
         a#project-back-link {
+          $proj-top: 80px;
+          $proj-left: 50px;
           position: fixed;
           
-          top: 80px;
-          left: 50px;
+          top:  $proj-top;
+          left: $proj-left;
 
           color: $element-color;
           font-family: $avenir;
-          font-size: $font-size*0.8;
-          font-weight: 700;
+          font-size: $font-size*0.6;
+          font-weight: 300;
+          letter-spacing: 2px;
           text-decoration: none;
           text-transform: uppercase;
           opacity: 0.8;
 
           z-index: 10;
 
+
           &:hover {
             opacity: 1;
             transition: opacity 1s ease 0s;
+          }
+          @media screen and (max-width: $max-width-m) {
+            top: $proj-top*0.25;
+            left: $proj-left*0.5;
+            position: relative;
           }
         }
         div#left-side-flex {
@@ -93,6 +104,11 @@ body {
           width: $left-side-width-desktop;
           position: fixed;
 
+          @media screen and (max-width: $max-width-m) {
+            top: 90px;
+            position: relative;
+            width: 100%;
+          }
           div#left-side-flex-vert-align {
             height: 100%;
             width: 100%;
@@ -100,6 +116,14 @@ body {
             align-items: center;
             div#left-side-flex-wrap {
               width: 100%;
+
+              @media screen and (max-width: $max-width-m) {
+                div#proj-img {
+                  img {
+                    max-height: 200px;
+                  }
+                }
+              }
               div.left-element {
 
                 div.l-elem-flex-wrap {
@@ -123,6 +147,19 @@ body {
                       transition: color 1s ease 0s;
                       transition: background-color 1s ease 0s;
                     }
+
+                    @media screen and (max-width: $max-width-m) {
+                      color: $element-color-m;
+                      border-color: $element-color-m;
+                      background-color: none;
+
+                      &:hover {
+                        color: #fff;
+                        background-color: $element-color-m;
+                        transition: color 1s ease 0s;
+                        transition: background-color 1s ease 0s;
+                      }
+                    }
                   }
                 }
               }
@@ -136,11 +173,18 @@ body {
       max-width: 850px;
       margin: $r-spac-marg;
 
+      @media screen and (max-width: $max-width-m) {
+        margin: $r-spac-marg*1.75 $r-spac-marg*0.3;
+      }
+
       div.details-year-wrapper {
         margin-bottom: $section-spacing;
 
         display: flex;
-        //justify-content: flex-end;
+        
+        @media screen and (max-width: $max-width-m) {
+          margin-bottom: 0;
+        }
 
         p.details-year {
           width: 40px;
@@ -151,6 +195,14 @@ body {
           font-weight: 500;
           letter-spacing: $font-size*0.3;
           background-color: black;
+          
+          @media screen and (max-width: $max-width-m) {
+            padding: 0;
+
+            font-weight: 700;
+            color: #000;
+            background-color: #fff;
+          }
         }
       }
 
@@ -207,7 +259,7 @@ body {
 
         div#more-details {
           div.detail-section {
-            width: 100%;
+            width: 90%;
             margin: 0 0 $ds-marg-b $p-l-marg;
             h3 {
               margin-top: $header-par-marg*6;
