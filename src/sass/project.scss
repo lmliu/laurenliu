@@ -30,6 +30,8 @@ $p-opacity: 0.6;
 //paragraph36eft-margin
 $p-l-marg: 36px;
 
+$max-width-m: 600px;
+
 * {
   margin: 0;
   padding: 0;
@@ -45,6 +47,10 @@ body {
     display: grid;
     grid-template-columns: $left-side-width-desktop auto;
 
+
+    @media screen and (max-width: $max-width-m) {
+      display: block;
+    }
 
     div.project-section {
       margin-bottom: $section-spacing;
@@ -176,7 +182,7 @@ body {
         h2.details-expanded-header {
           margin-bottom: $dets-expd-h2-marg;
 
-          font-size: $font-size*1.2;
+          font-size: $font-size;
           font-family: $avenir;
           font-weight: 900;
           text-transform: uppercase;
@@ -187,7 +193,8 @@ body {
           ul#glance-ul {
             margin-left: $p-l-marg;
             li {
-              margin: $header-par-marg 0;
+              margin: $header-par-marg*2 0;
+              font-size: $font-size*0.8;
               p {
                 opacity: $p-opacity;
                 span {
@@ -200,18 +207,24 @@ body {
 
         div#more-details {
           div.detail-section {
+            width: 100%;
             margin: 0 0 $ds-marg-b $p-l-marg;
             h3 {
-              margin-bottom: $header-par-marg;
+              margin-top: $header-par-marg*6;
+              margin-bottom: $header-par-marg*2;
+
+              font-size: $font-size;
             }
             p {
-              margin-bottom: $header-par-marg;
+              margin-bottom: $header-par-marg*4;
+              font-size: $font-size*0.8;
+              line-height: 1.75em;
               opacity: $p-opacity;
             }
 
-            img.yes {
-              width: 100%;
-              margin-bottom: $p-l-marg;
+            img.section-img {
+              max-width: 100%;
+              margin: 0 auto $p-l-marg auto;
             }
           }
         }

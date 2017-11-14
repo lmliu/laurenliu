@@ -7,11 +7,14 @@ $min-desktop-width: 750px;
 $font-size: 1em;
 
 $max-width-tb: 1180px;
+$max-width-m: 600px;
 
 $project-background: #9666A3;
 /* $project-background-d4sd: rgb(68, 150, 255);
 $project-background-dopelst: rgb(218, 112, 80);
 $project-background-doplst-2: #F2A64A; */
+
+$spacing-var: 40px;
 
 
 html {
@@ -77,17 +80,22 @@ html {
 
       height: 100%;
 
-
-
       div.project-wrapper {
         $height-dt: 480px;
         $width-dt: 950px;
         $width-tb: 600px;
+        $width-m: 300px;
         height: $height-dt;
         width: $width-dt;
         margin: 10% auto;
 
-        @media screen and (max-width: $max-width-tb) {
+        @media screen and (max-width: $max-width-m) {
+          margin: 0;
+          width: 100%;
+          height: auto;
+        }
+
+        @media screen and (max-width: $max-width-tb) and (min-width: $max-width-m){
           width: $width-tb;
         }
         div#project-fraction {
@@ -107,7 +115,7 @@ html {
           div.project-box-wrapper {
             height: 100%;
             width: 100%;
-            
+
             div#d4sd {
               /*background-color: $project-background-d4sd;
               /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4496e1+0,4496e1+0,4496e1+0,53cbf1+60 */
@@ -161,7 +169,11 @@ html {
               width: 100%;
 
               margin: 0 auto;
+              overflow-x: visible;
 
+              @media screen and (max-width: $max-width-m) {
+                overflow-x: hidden;
+              }
               div#project-box-wrap {
                 $project-width: 85%;
                 height: 100%;
@@ -171,6 +183,10 @@ html {
 
                 display: grid;
                 grid-template-columns: 4fr 2.5fr 1fr;
+
+                @media screen and (max-width: $max-width-m) {
+                  display: inline-block;
+                } 
 
                 div#project-content {
                   $middle-margin: 40px;
@@ -183,6 +199,9 @@ html {
 
                   margin-right: $middle-margin;
 
+                  @media screen and (max-width: $max-width-m) {
+                    padding: $spacing-var 0;
+                  } 
                   div#project-content-wrap {
                     p.tag {
                       padding: 0;
@@ -195,8 +214,12 @@ html {
                       padding-top: 5px;
                     }
                     div.project-button-row {
-                      $spacing-var: 40px;
+
                       padding: $spacing-var 0;
+
+                      @media screen and (max-width: $max-width-m) {
+                        padding-bottom: 0;
+                      }
                       a.portfolio-button {
                         margin-right: $spacing-var*0.5;
                         padding: 5px 20px;
@@ -226,6 +249,11 @@ html {
                   display: flex;
                   align-items: center;
                   justify-content: center;
+
+                  @media screen and (max-width: $max-width-m) {
+                    display: none;
+                  }
+
                 }
                 p.project-description {
                   font-size: $font-size*0.75;
@@ -247,13 +275,30 @@ html {
                   align-items: center;
                   justify-content: flex-end;
                   color: #fff;
+                  @media screen and (max-width: $max-width-m) {
+                    width: 100%;
+                    display: inline-block;
+                    color: #000;
+                    opacity: 0.45;
 
+                    display: none; //remove later
+                  } 
                   div#project-stats-wrapper {
-
+      
+                    @media screen and (max-width: $max-width-m) {
+                      width: 80%;
+                      display: flex;
+                      justify-content: space-between;
+                    } 
                     div.project-stat-group {
                       text-align: center;
+
+                      @media screen and (max-width: $max-width-m) {
+                        text-align: left;
+                      }
                       h5 {
-                        font-size: $font-size*0.7;
+                        font-size: $font-size*0.6;
+                        letter-spacing: 2px;
                       }
                       div.stat-details {
                         padding-top: $font-size*0.2;
@@ -262,13 +307,17 @@ html {
                           padding-bottom: $font-size*0.2;
                           font-size: $font-size*0.65;
                           font-weight: 400;
+                          letter-spacing: 0.2px;
                           opacity: 0.8;
                         }
                       }
                     }
 
                     div.project-stat-group.project-stat-notlast {
-                      padding-bottom: 55px;
+                      padding-bottom: $spacing-var;
+                      @media screen and (min-width: $max-width-m) {
+                        padding-bottom: 55px;
+                      }
                     }
                   }
                 }

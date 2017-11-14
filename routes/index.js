@@ -20,6 +20,7 @@ exports.view = function(req,res) {
         'projectTitle': 'D4SD',
         'projectDesc': 'D4SD was an online civic engagement platform that presented a challenge for San Diego citizens to design solutions for city issues. The site itself provides information and resources for the challenge.',
         'siteLink': 'https://d4sd.org',
+        'infoPath': 'yes',
         'imgPath': '/img/preview-d4sd.png',
         'roles': [
           'Developer', 
@@ -33,6 +34,7 @@ exports.view = function(req,res) {
         'tag': both,
         'projectTitle': 'dopeLst',
         'projectDesc': 'dopeLst is a CRUD application designed to be an index of your music library. It provides a fast and cached platform to ground all of that information in one place.',
+        'infoPath': 'yes',
         'siteLink': 'https://dopelst-a697d.firebaseapp.com/',
         'imgPath': '/img/preview-dope.png',
         'roles': [
