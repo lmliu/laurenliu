@@ -8,6 +8,7 @@
       "detLabels": "DEVELOPMENT+DESIGN, WEBSITE",
       "detDescr": "D4SD was an online civic engagement platform that presented a challenge for San Diego citizens to design solutions for city issues. The site itself provides information and resources for the challenge, as well as serves as a launchpad into the process for contestants.",
       "leftImgPath": "/img/preview-d4sd.png", 
+      "siteLink": "https://d4sd.org",
       "atAGlance": [
         {
           "glanceTitle": "Tech Used",
@@ -52,6 +53,7 @@
       "detLabels": "DESIGN+DEVELOPMENT, WEBSITE (PWA)",
       "detDescr": "dopeLst is a CRUD application designed to be an index of your music library. Given the plethora of music format and service options, many people’s discography spans several different devices. dopeLst provides a fast and cached platform to ground all of that information in one place.",
       "leftImgPath": "/img/preview-dope.png", 
+      "siteLink": "https://dopelst-a697d.firebaseapp.com/",
       "atAGlance": [
         {
           "glanceTitle": "Tech Used",
@@ -95,7 +97,9 @@
       "projectTitle": "Frank",
       "detLabels": "DESIGN+DEVELOPMENT, WEBSITE (MOBILE VIEW ONLY)",
       "detDescr": "Frank is social network application designed to help users improve their fashion. Users can post photos of their clothes and recieve brutally honest critiques in the form of either upvotes or comments.",
-      "leftImgPath": "/img/preview-frank.png", 
+      "leftImgPath": "/img/preview-frank.png",
+      "siteLink": "https://frank-app.herokuapp.com/",
+      "altText": "View Prototype",
       "atAGlance": [
         {
           "glanceTitle": "Tech Used",

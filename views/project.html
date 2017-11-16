@@ -26,7 +26,15 @@
               <br />
               <div id="proj-btn" class="left-element">
                 <div class="l-elem-flex-wrap">
-                  <a id="project-visit-site" href="https://frank-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit Site</a>
+                  {{#if siteLink}}
+                    <a id="project-visit-site" href="{{siteLink}}" target="_blank" rel="noopener noreferrer">
+                      {{#unless altText}}
+                        Visit Site
+                      {{else}}
+                        {{altText}}
+                      {{/unless}}
+                    </a>
+                  {{/if}}
                 </div><!-- .l-elem-flex-wrap -->
               </div><!-- #proj-btn.left-element -->
             </div><!-- #left-side-flex-wrap -->  
