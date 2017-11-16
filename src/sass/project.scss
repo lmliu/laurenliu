@@ -85,10 +85,9 @@ body {
 
           z-index: 10;
 
-
           &:hover {
-            opacity: 1;
-            transition: opacity 1s ease 0s;
+            letter-spacing: 0.25em*1.8;
+            transition: letter-spacing 0.5s ease 0s;
           }
           @media screen and (max-width: $max-width-m) {
             top: $proj-top*0.25;
@@ -140,7 +139,7 @@ body {
                     border: 1px solid $element-color;
 
                     &:hover {
-                      color: $project-background;
+                      color: #000;
                       background-color: $element-color;
                       transition: color 1s ease 0s;
                       transition: background-color 1s ease 0s;

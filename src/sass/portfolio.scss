@@ -49,6 +49,8 @@ body {
 
 }
 
+$letter-spacing:0.25em;
+
 div.bottom-link {
   position: relative;
   bottom: 10%;
@@ -67,6 +69,13 @@ div.bottom-link {
 
   a#landing-link {
     color: #000;
+  }
+}
+
+a.expand-text {
+  &:hover {
+    letter-spacing: $letter-spacing*3;
+    transition: letter-spacing 0.5s ease 0s;
   }
 }
 
