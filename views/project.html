@@ -4,13 +4,14 @@
   <title>Lauren Liu</title>
   <link rel="stylesheet" href="/css/portfolio.min.css" />
   <link rel="stylesheet" href="/css/project.min.css" />
+  <link rel="stylesheet" href="/css/variables.min.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
   <section class="project">
     <div class="left-side">
-      <div id="left-side-content">
+      <div id={{bkgClass}} class="left-side-content">
         <div id="proj-link">
           <a id="project-back-link" href="/#{{bkgClass}}">&mdash; back to portfolio</a>
         </div><!-- #proj-link.left-element -->
@@ -39,7 +40,7 @@
         <p class="details-year">{{year}}</p>
       </div><!-- .details-year-wrapper -->
       <div id="details-header" class="project-section">
-        <h1>{{projectTitle}}</h1>
+        <h1 id={{bkgClass}}>{{projectTitle}}</h1>
         <p id="details-labels">{{detLabels}}</p>
         <p id="details-description">{{detDescr}}</p>
       </div><!-- #details-header -->

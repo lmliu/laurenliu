@@ -58,15 +58,13 @@ body {
 
     div.left-side {
 
-      div#left-side-content {
+      div.left-side-content {
 
         $element-color: #fff;
         $element-color-m: #000;
 
         height: 100%;
         width: 100%;
-        
-        background-color: $project-background;
 
         a#project-back-link {
           $proj-top: 80px;
@@ -209,7 +207,6 @@ body {
       div#details-header {
         h1 {
           margin-bottom: 15px;
-          color: $project-background;
           font-family: $montserrat;
           font-size: $font-size*3;
         }
