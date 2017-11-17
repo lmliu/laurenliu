@@ -11,6 +11,19 @@ h1#d4sd {
   color: #4496e1;
 }
 
+div#personal {
+  background: #4568DC;  /* fallback for old browsers */
+  background: -moz-linear-gradient(-45deg, #4568DC 0%, #B06AB3 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #4568DC, #B06AB3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(135deg, #4568DC, #B06AB3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4568DC', endColorstr='#B06AB3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+h1#personal {
+  color: #4568DC;
+}
+
 div#dopeLst {
   /* background-color: $project-background-dopelst; */
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#da7050+0,f2a64a+100 */

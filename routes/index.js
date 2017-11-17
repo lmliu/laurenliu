@@ -26,14 +26,14 @@ exports.view = function(req,res) {
           'Developer', 
           'Designer'
         ],
-        'year': '2016-2017',
+        'year': 'Ongoing',
         'type': 'web' 
       },
       {
-        'bkgClass': 'dopeLst',
+        'bkgClass': 'personal',
         'tag': both,
         'projectTitle': 'laurenliu.me',
-        'projectDesc': 'dopeLst is a CRUD application designed to be an index of your music library. It provides a fast and cached platform to ground all of that information in one place.',
+        'projectDesc': 'A personal portfolio to showcase my work. Built with blood, sweat, and caffine. ',
         'infoPath': 'yes',
         'siteLink': 'https://dopelst-a697d.firebaseapp.com/',
         'imgPath': '/img/personal/logo.png',
@@ -41,7 +41,7 @@ exports.view = function(req,res) {
           'Developer', 
           'Designer'
         ],
-        'year': '2017',
+        'year': 'Ongoing',
         'type': 'Web' 
       },
       {

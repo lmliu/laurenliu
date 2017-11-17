@@ -46,6 +46,51 @@
         }
       ]
     },
+        {
+      "bkgClass": "personal",
+      "year": "2017",
+      "projectTitle": "laurenliu.me",
+      "detLabels": "DEVELOPMENT+DESIGN, WEBSITE",
+      "detDescr": "D4SD was an online civic engagement platform that presented a challenge for San Diego citizens to design solutions for city issues. The site itself provides information and resources for the challenge, as well as serves as a launchpad into the process for contestants.",
+      "leftImgPath": "/img/preview-d4sd.png", 
+      "siteLink": "https://d4sd.org",
+      "atAGlance": [
+        {
+          "glanceTitle": "Tech Used",
+          "glanceDet": "Vue.js, HTML/SASS, Firebase, Sketch"
+        },
+        {
+          "glanceTitle": "The Team",
+          "glanceDet": "3 developers"
+        },
+        {
+          "glanceTitle": "Main Takeaway",
+          "glanceDet": "Low latency is incredibly important. Tradeoffs in site speed are usually made at the expense of code complexity or aesthetics. also dropshadows? Surprisingly expensive."
+        },
+        {
+          "glanceTitle": "It Won Some Things",
+          "glanceDet": "🏆 Top 3 Fastest Sites in the Class, 🏆 Top Tier UX/UI"
+        }, 
+        {
+          "glanceTitle": "A Fun Fact",
+          "glanceDet": "It’s a PWA!"
+        }
+      ],
+      "moreDet": 
+      [
+        {
+          "moreDetTitle": "The Takeaway",
+          "moreDetContent": 
+          [
+            "Latency is very important, and design has a significant effect on it. According to RAIL, if load time for a page exceeds one second, the flow will be broken and user’s attention will wander. We made ecompromises on designs to speed up our site, for instance eliminating box shadows (https://medium.com/airbnb-engineering/css-box-shadow-can-slow-down-scrolling-d8ea47ec6867#.b8jj29awr) to speed scrolling times and reducing the number of gradients.",
+            "Additionally, as phones become the primary way users browse the internet, a mobile-first approach becomes increasingly important. As a result, we made special design and build considerations for mobile browsers since they are slower than computers at loading data, which is only compounded by faulty wifi and slow data speeds.",
+            "One of our solutions was to create a separate, flatter style for the mobile playlist.",
+            "We used media queries to handle screen-size detection and wrote it such that our mobile styles were default and our tablet and desktop styles were handled by the queries. This greatly reduced the amount of selectors the mobile browser had to parse through.",
+            "Our second solution, designing it as a PWA, also helped reduce load times and reduced the effect of unreliable networks. It also provides some advantages of native apps (fast data fetches, offline access via caching) without the initialization cost of having to configure an app."
+          ]
+        }
+      ]
+    },
     {
       "bkgClass": "dopeLst",
       "year": "2017",
