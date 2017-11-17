@@ -50,7 +50,7 @@ exports.view = function(req,res) {
         'projectTitle': 'Frank',
         'projectDesc': 'Frank is a social media web mobile website designed for fashion feedback. The site allows users to post photos and receive feedback through a rating system and a comment section.',
         'infoPath': '/project',
-        'siteLink': 'https://dopelst-a697d.firebaseapp.com/',
+        'siteLink': 'https://frank-app.herokuapp.com/',
         'imgPath': '/img/preview-frank.png',
         'roles': [
           'Developer', 

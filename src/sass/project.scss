@@ -31,6 +31,7 @@ $p-opacity: 0.6;
 $p-l-marg: 5%;
 
 $max-width-m: 600px;
+$max-width-tb: 920px;
 
 * {
   margin: 0;
@@ -48,7 +49,7 @@ body {
     grid-template-columns: $left-side-width-desktop auto;
 
 
-    @media screen and (max-width: $max-width-m) {
+    @media screen and (max-width: $max-width-tb) {
       display: block;
     }
 
@@ -89,7 +90,7 @@ body {
             letter-spacing: 0.25em*1.8;
             transition: letter-spacing 0.5s ease 0s;
           }
-          @media screen and (max-width: $max-width-m) {
+          @media screen and (max-width: $max-width-tb) {
             top: $proj-top*0.25;
             left: $proj-left*0.5;
             position: relative;
@@ -101,7 +102,7 @@ body {
           width: $left-side-width-desktop;
           position: fixed;
 
-          @media screen and (max-width: $max-width-m) {
+          @media screen and (max-width: $max-width-tb) {
             top: 90px;
             position: relative;
             width: 100%;
@@ -114,7 +115,7 @@ body {
             div#left-side-flex-wrap {
               width: 100%;
 
-              @media screen and (max-width: $max-width-m) {
+              @media screen and (max-width: $max-width-tb) {
                 div#proj-img {
                   img {
                     max-height: 200px;
@@ -145,7 +146,7 @@ body {
                       transition: background-color 1s ease 0s;
                     }
 
-                    @media screen and (max-width: $max-width-m) {
+                    @media screen and (max-width: $max-width-tb) {
                       color: $element-color-m;
                       border-color: $element-color-m;
                       background-color: none;
@@ -170,7 +171,7 @@ body {
       max-width: 850px;
       margin: $r-spac-marg;
 
-      @media screen and (max-width: $max-width-m) {
+      @media screen and (max-width: $max-width-tb) {
         margin: $r-spac-marg*1.75 $r-spac-marg*0.3;
       }
 
@@ -179,7 +180,7 @@ body {
 
         display: flex;
         
-        @media screen and (max-width: $max-width-m) {
+        @media screen and (max-width: $max-width-tb) {
           margin-bottom: 0;
         }
 
@@ -193,7 +194,7 @@ body {
           letter-spacing: $font-size*0.3;
           background-color: black;
           
-          @media screen and (max-width: $max-width-m) {
+          @media screen and (max-width: $max-width-tb) {
             padding: 0;
 
             font-weight: 700;
