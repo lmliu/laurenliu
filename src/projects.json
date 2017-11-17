@@ -235,7 +235,7 @@
             "We learned that we are not the user. There were some great insights that we gleaned from interviews that we wouldn’t have thought of ourselves. For instance, originally we had a menu of categories as our index screen, but a few of our interviewees mentioned that it would be nice if it was a trending-based post feed of posts from all categories. We ended up incorporating that into our app.",
             "Lofi prototypes are important and allow us to fail fast and fail often. Having people test our flow through paper prototypes worked out a number of the kinks in our app before we spent time refining it with a hifi wireframe. Using this method allowed us to develop the final solution and product faster and prevented rework with prototypes that were most costly in terms of time and work.",
             "Finally, Bootstrap is a highly powerful tool for rapid prototyping, especially with it’s responsive grid system. However, there are a handful of tradeoffs that crop up as a result:",
-            "> Lead Time: If the programmer is not familiar with bootstrap, there is a small learning curve.",
+            "<ul><li>Lead Time: If the programmer is not familiar with bootstrap, there is a small learning curve.</h1></li></ul>",
             "> Div City: We ended up using a lot of divs, there was an insane amount of nesting.",
             "> Big Files: The entire library is also huge which heavily cramps load speeds. Customizing it drastically reduces file size but took time and project foresight that we lacked.",
             "> Change is Hard: Bootstrap is not friendly towards style customization.",

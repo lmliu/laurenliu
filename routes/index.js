@@ -33,7 +33,7 @@ exports.view = function(req,res) {
         'bkgClass': 'personal',
         'tag': both,
         'projectTitle': 'laurenliu.me',
-        'projectDesc': 'A personal portfolio to showcase my work. Built with blood, sweat, and caffine. ',
+        'projectDesc': 'A personal portfolio to showcase my work. Designed and built by yours truly with blood, sweat, and caffeine (but mostly caffeine). ',
         'infoPath': 'yes',
         'siteLink': 'https://dopelst-a697d.firebaseapp.com/',
         'imgPath': '/img/personal/logo.png',
