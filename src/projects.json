@@ -205,7 +205,9 @@
       "projectTitle": "A.V.I.C.S",
       "detLabels": "DESIGN CONCEPT, PRINT DESIGN",
       "detDescr": " A.V.I.C.S is short for \"Autonomous Vehicle Intent Communication System.\" It's a prototype for communication between self-driving cars and other entities that will share roads.",
-      "leftImgPath": "/img/AVICS/poster-min.png", 
+      "leftImgPath": "/img/AVICS/poster-min.png",
+      "siteLink": "/img/AVICS/poster.pdf",
+      "altText": "View Poster", 
       "atAGlance": [
         {
           "glanceTitle": "Tech Used",

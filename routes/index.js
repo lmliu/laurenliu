@@ -94,7 +94,7 @@ exports.view = function(req,res) {
         'projectTitle': 'Fusion XV',
         'projectDesc': 'Fusion is one of the biggest hip-hop dance competitions on the West Coast. I was on the graphics team for the 15th iteration, and I created watercolor-themed advertising posters and badges for the competition.',        'infoPath': '/project',
         'infoPath': '/project',
-        'imgPath': '/img/Fusion/fusionLogo.png',
+        'imgPath': '/img/preview-fusion.png',
         'roles': [
           'Graphic Designer',
         ],
