@@ -284,7 +284,7 @@
       "projectTitle": "Fusion XV",
       "detLabels": "GRAPHIC DESIGN, PRINT DESIGN",
       "detDescr": "Fusion is one of the biggest hip-hop dance competitions on the West Coast. I was on the graphics team for the 15th iteration, and I created watercolor-themed advertising posters and badges for the competition.",
-      "leftImgPath": "/img/fusion/fusionLogo.png", 
+      "leftImgPath": "/img/Fusion/fusionLogo.png", 
       "atAGlance": [
         {
           "glanceTitle": "Tech Used",
@@ -314,7 +314,7 @@
         },
         {
           "moreDetTitle": "Kickoff Event Advertisement Banner",
-          "moreDetImgPath": "/img/fusion/ad-fusion-kickoff.jpg", 
+          "moreDetImgPath": "/img/Fusion/ad-fusion-kickoff.jpg", 
           "moreDetContent": 
           [
             "This Advertisement Banner was displayed at UCSD's Price Center. It was also used as the background for the Kickoff Event. "
@@ -322,12 +322,12 @@
         },
         {
           "moreDetTitle": "Kickoff Banner In Use",
-          "moreDetImgPath": "/img/fusion/event-judges-sm-min.jpg", 
+          "moreDetImgPath": "/img/Fusion/event-judges-sm-min.jpg", 
           "moreDetContent": []
         },
         {
           "moreDetTitle": "Name Tag Badges for the Main Competition",
-          "moreDetImgPath": "/img/fusion/badges.jpg", 
+          "moreDetImgPath": "/img/Fusion/badges.jpg", 
           "moreDetContent": []
         }
       ]

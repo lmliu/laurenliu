@@ -32,6 +32,21 @@ exports.view = function(req,res) {
       {
         'bkgClass': 'dopeLst',
         'tag': both,
+        'projectTitle': 'laurenliu.me',
+        'projectDesc': 'dopeLst is a CRUD application designed to be an index of your music library. It provides a fast and cached platform to ground all of that information in one place.',
+        'infoPath': 'yes',
+        'siteLink': 'https://dopelst-a697d.firebaseapp.com/',
+        'imgPath': '/img/preview-dope.png',
+        'roles': [
+          'Developer', 
+          'Designer'
+        ],
+        'year': '2017',
+        'type': 'Web' 
+      },
+      {
+        'bkgClass': 'dopeLst',
+        'tag': both,
         'projectTitle': 'dopeLst',
         'projectDesc': 'dopeLst is a CRUD application designed to be an index of your music library. It provides a fast and cached platform to ground all of that information in one place.',
         'infoPath': 'yes',
