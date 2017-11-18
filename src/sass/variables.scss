@@ -76,3 +76,15 @@ div#fusion {
 h1#fusion {
   color: #f44a79;;
 }
+
+div#iconography {
+  background: #f78ca0; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f78ca0', endColorstr='#fe9a8b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+h1#iconography {
+  color: #f78ca0;
+}

@@ -82,7 +82,21 @@
                   <p>{{{this}}}</p>
                 {{/each}}
                 {{#if moreDetImgPath}}
-                  <img class="section-img" src={{moreDetImgPath}} alt="hi" />
+                  <div class="proj-img-wraps-wrap">
+                    <div class="proj-img-wrap">
+                      <div class="proj-img-container">
+                        <img class="section-img" src={{moreDetImgPath}} alt="hi" />
+                      </div>
+                    </div>
+                    {{#if imgCaption}}
+                      <p class="det-img-cap">{{imgCaption}}</p>
+                    {{/if}}
+                  </div>
+                {{/if}}
+                {{#if btnTitle}}
+                  <div class="btn-wrap">
+                    <a href={{btnLink}} class="more-det-btn" target="_blank" rel="noopener noreferrer">&raquo;&nbsp; {{btnTitle}} &nbsp;&laquo;</a>
+                  </div>
                 {{/if}}
               </div><!-- .detail-section -->
             {{/each}}

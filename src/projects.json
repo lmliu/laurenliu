@@ -3,16 +3,17 @@
   [
       {
       "bkgClass": "d4sd",
+      "bkgColor": "#4496e1",
       "year": "2017",
       "projectTitle": "D4SD",
       "detLabels": "DEVELOPMENT+DESIGN, WEBSITE",
-      "detDescr": "D4SD was an online civic engagement platform that presented a challenge for San Diego citizens to design solutions for city issues. The site itself provides information and resources for the challenge, as well as serves as a launchpad into the process for contestants.",
+      "detDescr": "D4SD is an online civic engagement platform in San Diego. For the 2017 cycle, it challenged local citizens and designers to prototype solutions for problems centered in four mobility-based categories (walking/biking, accessibility, commuter experience, and autonomous vehicles) using a provided human-centered design process. The site itself provides information and resources for each challenge, as well as serves as a launchpad into the process for contestants.",
       "leftImgPath": "/img/preview-d4sd.png", 
       "siteLink": "https://d4sd.org",
       "atAGlance": [
         {
           "glanceTitle": "Tech Used",
-          "glanceDet": "React, JSX/HTML/SASS, GSAP,  Travis, AWS"
+          "glanceDet": "React, JSX/HTML/SASS, GSAP, Travis, AWS"
         },
         {
           "glanceTitle": "Design Programs Used",
@@ -34,6 +35,14 @@
       "moreDet": 
       [
         {
+          "moreDetTitle": "My Roles",
+          "moreDetContent":
+          [
+            "I was primarily a UX Engineer whose roles were to build out prototypes and optimize the site, but as the launch date neared, I took on a more traditional front-end developer role.",
+            "Earlier in the process, I also contributed significantly as a product developer, using user research analysis, literature review, and existing product comparisons to develop the core principles and flow of the challenge process and how they would be displayed on a digital medium. I also designed lo-fi and hi-fi prototypes for the pages on the site, as well as created some graphic elements such as icons."
+          ]
+        },
+        {
           "moreDetTitle": "The Goal",
           "moreDetContent":
           [
@@ -52,20 +61,33 @@
         },
         {
           "moreDetTitle": "Model Creation",
+          "moreDetImgPath": "/img/d4sd/model.jpg",
           "moreDetContent": 
           [
-            "Compiling user research, literature review and platform comparison, our group developed the following model for designing solutions for a civic project:"
+            "Compiling user research, literature review and platform comparison, our group developed the following model for designing solutions for a civic project. I helped digitize this model into an infographic using Sketch."
           ]
         },
         {
           "moreDetTitle": "Process Flow Diagram",
+          "moreDetImgPath": "/img/d4sd/processFlow.jpg",
           "moreDetContent": 
           [
-            "Compiling user research, literature review and platform comparison, our group developed the following model for designing solutions for a civic project:"
+            "We translated the design model we created into a flow for users. We came up with a hybrid offline/online model, where the first stage was performed in-person, utilizing a design class to generate interview/observation data, and perform root cause analysis, essentially performing the first two stages in the model, Identify and Ideate. We then would then make that data available  to online users, who would use our tool to form teams and engage in the Prototype phase by designing solutions. The Implementation stage would happen offline, and depended on the commitment of outside entities (ie, from the government or sponsors).",
+            "While some of the specific technologies listed in the flow diagram below were not used the the final product, the general flow remained the same. I created this diagram for our team using Powerpoint."
+          ]
+        },
+        {
+          "moreDetTitle": "Site Flow Diagram",
+          "moreDetImgPath": "/img/d4sd/flow-diagram.png",
+          "moreDetContent": 
+          [
+            "We then listed the features of the process and compartmentalized them into pages in a way such that the user would have a clear system image when they navigated the site.",
+            "More pages were added later, but the five main pages/templates we knew we needed were a landing page, a team/about page, a “get involved” page for launching users into other features (this included forming teams, discussing topics, etc), a “challenge index” page which listed all of the possible mobility challenge ideas, and a page for each challenge that would function a as a wiki page for information and outside resources. I also created this chart using Powerpoint."
           ]
         },
         {
           "moreDetTitle": "Lofi Wireframes",
+          "moreDetImgPath": "/img/d4sd/whiteboarding.jpg",
           "moreDetContent": 
           [
             "Compiling user research, literature review and platform comparison, our group developed the following model for designing solutions for a civic project:"
@@ -73,23 +95,30 @@
         },
         {
           "moreDetTitle": "Hifi Wireframes",
+          "moreDetImgPath": "/img/d4sd/wireframes.jpg",
           "moreDetContent": 
           [
-            "Compiling user research, literature review and platform comparison, our group developed the following model for designing solutions for a civic project:"
-          ]
+            "For an earlier version of the site, and before I took on a more development-heavy role, I helped create high-fidelity mockups. One of the challenges we encountered was that the requirements and the specs kept rapidly changing, and so we had to constantly iterate from whiteboard to hi-fi prototypes within the span of days to address new constraints and goals. We found that the invision prototype was useful as a tool to quickly get a feel for look and flow of the site, which helped when we solicited feedback from the testers and sponsors.",
+            "Below the image is a link to one of the invision mockups I helped make. I made a few of the pages, notably the index page, the challenge index page, and the team page, and arranged all the wireframes on invision. Not all of the pages were fleshed out at the point."
+          ],
+          "btnTitle": "VIEW INVISION PROTOTYPE",
+          "btnLink": "https://projects.invisionapp.com/share/9QBOKS9VR#/screens/233401076"
         },
         {
           "moreDetTitle": "Iconography",
+          "moreDetImgPath": "/img/d4sd/icons/alltogethernow.jpg",
           "moreDetContent": 
           [
-            "Compiling user research, literature review and platform comparison, our group developed the following model for designing solutions for a civic project:"
+            "I made icons to represent the four main stages of the design process. I designed them using a wire-style to complement the theme of the site, and created them using Sketch."
           ]
         },
         {
           "moreDetTitle": "Kickoff Hackathon",
+          "moreDetImgPath": "/img/d4sd/kickoffEvent.jpg",
+          "imgCaption": "Photo by Erik Jepsen/UC San Diego Publications",
           "moreDetContent": 
           [
-            "Compiling user research, literature review and platform comparison, our group developed the following model for designing solutions for a civic project:"
+            "We held a kickoff event to launch contestants into the projects. About 100 individuals attended, and they were given a set amount of time to begin hashing out their solutions. Design Lab Director Don Norman, UCSD Chancellor Pradeep K. Khosla, and San Diego Mayor Kevin Faulconer were also attended and made opening remarks."
           ]
         },
         {
@@ -373,6 +402,47 @@
           "glanceDet": "5,000 people attended the competition"
         }
       ],
+      "moreDet": 
+      [
+        {
+          "moreDetTitle": "The Goal",
+          "moreDetContent": 
+          [
+            "To create graphics for advertising and administrative purposes with a watercolor theme."
+          ]
+        },
+        {
+          "moreDetTitle": "Kickoff Event Advertisement Banner",
+          "moreDetImgPath": "/img/Fusion/ad-fusion-kickoff.png", 
+          "moreDetContent": 
+          [
+            "I designed this banner as an advertisement for the Fusion XV Kickoff event, a preshow dance showcase that was held to build anticipation for the main dance competition. This advertisement banner was shown at UCSD’s Price Center, the main student center, for two weeks. It was also later selected for use as a projected backdrop for the kickoff event itself."
+          ]
+        },
+        {
+          "moreDetImgPath": "/img/Fusion/event-judges-sm-min.jpg", 
+          "moreDetContent": []
+        },
+        {
+          "moreDetImgPath": "/img/Fusion/event-audience-sm-min.jpg", 
+          "moreDetContent": []
+        },
+        {
+          "moreDetTitle": "Name Tag Badges for the Main Competition",
+          "moreDetImgPath": "/img/Fusion/badges-tilt.jpg", 
+          "moreDetContent": [
+            "I collaborated with another designer on the team to create badges for the participants and staff. These badges were used during the main competition. There were three different categories of individuals: Performers, MCs and Judges, and Staff, and are differentiated using different color schemes. The badges can be seen below."
+          ]
+        }
+      ]
+    },
+    {
+      "bkgClass": "iconography",
+      "year": "various",
+      "projectTitle": "Iconography",
+      "detLabels": "GRAPHIC DESIGN",
+      "detDescr": "Fusion is one of the biggest hip-hop dance competitions on the West Coast. I was on the graphics team for the 15th iteration, and I created watercolor-themed advertising posters and badges for the competition.",
+      "leftImgPath": "/img/Fusion/fusionLogo.png", 
       "moreDet": 
       [
         {

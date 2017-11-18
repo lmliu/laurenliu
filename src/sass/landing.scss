@@ -63,7 +63,8 @@ html {
             width: 90%;
             margin: 0 auto;
 
-            font-size: $font-size;
+            font-size: $font-size*0.85;
+            letter-spacing: 1px;
             color: #000;
 
             opacity: 0.6;

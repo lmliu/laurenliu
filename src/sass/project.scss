@@ -22,6 +22,7 @@ $ds-marg-b: 20px;
 $dets-expd-h2-marg: 20px;
 
 $section-spacing: 50px;
+$det-spacing: 5%;
 
 
 //paragraph opacity
@@ -270,10 +271,49 @@ body {
               line-height: 1.75em;
               opacity: $p-opacity;
             }
+            div.proj-img-wraps-wrap {
+              margin: $p-l-marg*2 auto;
+              div.proj-img-wrap {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                
+                img.section-img {
+                  max-width: 100%;
+                  height: auto;
+                }
+              }
+              p.det-img-cap {
+                font-style: italic;
+                text-align: right;
+              }
+            }
+            div.btn-wrap {
+              $btn-marg: 50px;
+              margin: $btn-marg 0;
+              padding-bottom: $det-spacing;
+              display: flex;
+              justify-content: center;
+              a.more-det-btn {
+                padding: 7px 15px;
 
-            img.section-img {
-              max-width: 100%;
-              margin: 0 auto $p-l-marg auto;
+                color: #fff;
+                background-color: #000;
+                font-family: $monospaced;
+                font-size: $font-size*0.8;
+                text-decoration: none;
+                text-transform: uppercase;
+
+                border: 1px solid #000;
+
+                &:hover {
+
+                  color: #000;
+                  background-color: #fff;
+                  transition: color 1s ease 0s;
+                  transition: background-color 1s ease 0s;
+                }
+              }
             }
           }
         }

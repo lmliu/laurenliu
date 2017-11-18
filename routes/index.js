@@ -33,7 +33,7 @@ exports.view = function(req,res) {
         'bkgClass': 'personal',
         'tag': both,
         'projectTitle': 'laurenliu.me',
-        'projectDesc': 'A personal portfolio to showcase my work. Designed and built by yours truly with blood, sweat, and caffeine (but mostly caffeine). ',
+        'projectDesc': 'A personal portfolio to showcase my work. Designed and built by me with blood, sweat, and caffeine (but mostly caffeine). ',
         'infoPath': 'yes',
         'siteLink': 'https://dopelst-a697d.firebaseapp.com/',
         'imgPath': '/img/personal/logo.png',
@@ -99,6 +99,19 @@ exports.view = function(req,res) {
           'Graphic Designer',
         ],
         'year': '2015',
+        'type': 'Graphic Design' 
+      },
+      {
+        'bkgClass': 'iconography',
+        'tag': dsgn,
+        'projectTitle': 'Iconography',
+        'projectDesc': 'Fusion is one of the biggest hip-hop dance competitions on the West Coast. I was on the graphics team for the 15th iteration, and I created watercolor-themed advertising posters and badges for the competition.',        'infoPath': '/project',
+        'infoPath': '/project',
+        'imgPath': '/img/preview-fusion.png',
+        'roles': [
+          'Graphic Designer',
+        ],
+        'year': 'Various',
         'type': 'Graphic Design' 
       },
     ]
