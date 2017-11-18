@@ -128,6 +128,12 @@ body {
                 div.l-elem-flex-wrap {
                   display: flex;
                   justify-content: center;
+                  
+                  div.img-wrap {
+                    img {
+                      max-width: 275px;
+                    }
+                  }
 
                   a#project-visit-site {
                     padding: 5px 15px;

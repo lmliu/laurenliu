@@ -439,14 +439,14 @@
     {
       "bkgClass": "iconography",
       "year": "various",
-      "projectTitle": "Iconography",
+      "projectTitle": "Icons & Logos",
       "detLabels": "GRAPHIC DESIGN",
-      "detDescr": "Fusion is one of the biggest hip-hop dance competitions on the West Coast. I was on the graphics team for the 15th iteration, and I created watercolor-themed advertising posters and badges for the competition.",
-      "leftImgPath": "/img/Fusion/fusionLogo.png", 
+      "detDescr": "I’ve made icons for various projects over the course of the years using Sketch and Illustrator. Below is a collection of them sorted by project.",
+      "leftImgPath": "/img/icons/preview-icons-dt.png", 
       "moreDet": 
       [
         {
-          "moreDetTitle": "The Goal",
+          "moreDetTitle": "D4SD",
           "moreDetContent": 
           [
             "To create graphics for advertising and administrative purposes with a watercolor theme."

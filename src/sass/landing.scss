@@ -203,6 +203,12 @@ html {
                     display: none;
                   }
 
+                  div.preview-img-wrap {
+                    img {
+                      max-width: 275px;
+                    }
+                  }
+
                 }
                 p.project-description {
                   font-size: $font-size*0.75;

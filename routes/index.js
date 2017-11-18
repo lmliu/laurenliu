@@ -105,9 +105,9 @@ exports.view = function(req,res) {
         'bkgClass': 'iconography',
         'tag': dsgn,
         'projectTitle': 'Iconography',
-        'projectDesc': 'Fusion is one of the biggest hip-hop dance competitions on the West Coast. I was on the graphics team for the 15th iteration, and I created watercolor-themed advertising posters and badges for the competition.',        'infoPath': '/project',
+        'projectDesc': 'I’ve made icons for various projects over the course of the years. Click “More Info” below to see a collection of them.',
         'infoPath': '/project',
-        'imgPath': '/img/preview-fusion.png',
+        'imgPath': '/img/icons/preview-icons-dt.png',
         'roles': [
           'Graphic Designer',
         ],
