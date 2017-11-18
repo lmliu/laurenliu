@@ -86,6 +86,20 @@
           ]
         },
         {
+          "moreDetTitle": "Kickoff Hackathon",
+          "moreDetContent": 
+          [
+            "Compiling user research, literature review and platform comparison, our group developed the following model for designing solutions for a civic project:"
+          ]
+        },
+        {
+          "moreDetTitle": "Design Forward Event",
+          "moreDetContent": 
+          [
+            "Compiling user research, literature review and platform comparison, our group developed the following model for designing solutions for a civic project:"
+          ]
+        },
+        {
           "moreDetTitle": "The Takeaway",
           "moreDetContent": 
           [
@@ -302,7 +316,7 @@
       "detLabels": "DESIGN CONCEPT, PRINT DESIGN",
       "detDescr": " A.V.I.C.S is short for \"Autonomous Vehicle Intent Communication System.\" It's a prototype for communication between self-driving cars and other entities that will share roads.",
       "leftImgPath": "/img/AVICS/poster-min.png",
-      "siteLink": "/hq/poster.pdf",
+      "siteLink": "/hq/avics-poster.pdf",
       "altText": "View Poster", 
       "atAGlance": [
         {
@@ -393,12 +407,8 @@
           "glanceDet": "11 graphic artists"
         },
         {
-          "glanceTitle": "Main Takeaway",
-          "glanceDet": "Designing for a client takes a flexible and nuanced approach."
-        }, 
-        {
           "glanceTitle": "A Fun Fact",
-          "glanceDet": "The main competition had an audience of 5,000 people!"
+          "glanceDet": "5,000 people attended the competition"
         }
       ],
       "moreDet": 
@@ -412,10 +422,10 @@
         },
         {
           "moreDetTitle": "Kickoff Event Advertisement Banner",
-          "moreDetImgPath": "/img/Fusion/ad-fusion-kickoff.jpg", 
+          "moreDetImgPath": "/img/Fusion/ad-fusion-kickoff.png", 
           "moreDetContent": 
           [
-            "This Advertisement Banner was displayed at UCSD's Price Center. It was also used as the background for the Kickoff Event. "
+            "I designed this banner as an advertisement for the Fusion XV Kickoff event, a preshow dance showcase that was held to build anticipation for the main dance competition. This advertisement banner was shown at UCSD’s Price Center, the main student center, for two weeks. It was also later selected for use as a projected backdrop for the kickoff event itself."
           ]
         },
         {
@@ -423,9 +433,15 @@
           "moreDetContent": []
         },
         {
-          "moreDetTitle": "Name Tag Badges for the Main Competition",
-          "moreDetImgPath": "/img/Fusion/badges.jpg", 
+          "moreDetImgPath": "/img/Fusion/event-audience-sm-min.jpg", 
           "moreDetContent": []
+        },
+        {
+          "moreDetTitle": "Name Tag Badges for the Main Competition",
+          "moreDetImgPath": "/img/Fusion/badges-tilt.jpg", 
+          "moreDetContent": [
+            "I collaborated with another designer on the team to create badges for the participants and staff. These badges were used during the main competition. There were three different categories of individuals: Performers, MCs and Judges, and Staff, and are differentiated using different color schemes. The badges can be seen below."
+          ]
         }
       ]
     }
