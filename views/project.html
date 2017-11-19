@@ -87,13 +87,24 @@
                   <div class="proj-img-wraps-wrap">
                     <div class="proj-img-wrap">
                       <div class="proj-img-container">
-                        <img class="section-img" src={{moreDetImgPath}} alt="hi" />
+                        {{#each moreDetImgPath}}
+                          <img class="section-img" src={{this}} alt="hi" />
+                        {{/each}}
                       </div>
                     </div>
                     {{#if imgCaption}}
                       <p class="det-img-cap">{{imgCaption}}</p>
                     {{/if}}
                   </div>
+                {{/if}}
+                {{#if iconDump}}
+                  <div class="icon-wrap">
+                    {{#each iconDump}}
+                      <div class="icon-el">
+                        <img class={{../iconType}} src={{this}} alt={{bkgClass}}/>
+                      </div><!-- .icon-el -->
+                    {{/each}}
+                  </div><!-- .icon-dump -->
                 {{/if}}
                 {{#if btnTitle}}
                   <div class="btn-wrap">

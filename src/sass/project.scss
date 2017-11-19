@@ -325,6 +325,45 @@ body {
                 text-align: right;
               }
             }
+            div.icon-wrap {
+              width: 100%;
+              margin: $section-spacing*0.75 0 $section-spacing*0.75 0;
+              text-align: center;
+
+              div.icon-el {
+                $icon-padding: 10px;
+                display: inline-block;
+                vertical-align: middle;
+                margin: 0 auto;
+                img.box {
+                  $icon-max: 80px;
+                  max-width: $icon-max*0.7;
+                  max-height: $icon-max*0.7;
+                  padding: 10px;
+                  @media screen and (min-width: $max-width-m) {
+                    padding: $icon-padding*2.5;
+                    max-width: $icon-max;
+                    max-height: $icon-max;
+                  }
+                }
+                img.no-bckgrd {
+                  $icon-max: 60px;
+                  max-width: $icon-max*0.7;
+                  max-height: $icon-max*0.7;
+                  padding: 30px;
+                  @media screen and (min-width: $max-width-m) {
+                    padding: $icon-padding*2.5;
+                    max-width: $icon-max;
+                    max-height: $icon-max;
+                  }
+                }
+                img.logo {
+                  $logo-max: 100px;
+                  max-height: $logo-max;
+
+                }
+              }
+            }
             div.btn-wrap {
               $btn-marg: 50px;
               margin: $btn-marg 0;

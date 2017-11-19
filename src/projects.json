@@ -29,7 +29,7 @@
         },
         {
           "glanceTitle": "In The News",
-          "glanceDet": "<ul id=\"glance-articles\"><li><span class=\"article-src\">[SD TRIBUNE]</span> <a class=\"paragraph-link\" href=\"http://www.sandiegouniontribune.com/business/growth-development/sd-fi-mobility-20170915-story.html\" target=\"_blank\" rel=\"noopener noreferrer\">Public invited to all-night hackathon to solve San Diego's commuting nightmare</a></li><li><span class=\"article-src\">[UCSD NEWS]</span> <a class=\"paragraph-link\" href=\"http://ucsdnews.ucsd.edu/pressrelease/public-invited-to-design-solutions-to-our-citys-biggest-issues\" target=\"_blank\" rel=\"noopener noreferrer\">Public Invited to Design Solutions to Our City’s Biggest Issues</a></li><li><span class=\"article-src\">[CALIT2]</span> <a class=\"paragraph-link\" href=\"http://www.calit2.net/newsroom/release.php?id=2935\" target=\"_blank\" rel=\"noopener noreferrer\">Public Invited to Design Solutions to Our City's Biggest Issues</a></li><li><span class=\"article-src\">[PSN]</span> (en español) <a class=\"paragraph-link\" href=\"https://psn.si/desafian-poblacion-transporte/2017/09/\" target=\"_blank\" rel=\"noopener noreferrer\">Desafían a la población a enfrentar los problemas de transporte en San Diego</a></li><ul>"
+          "glanceDet": "<ul id=\"glance-articles\"><li><span class=\"article-src\">[SD TRIBUNE]</span> <a class=\"paragraph-link\" href=\"http://www.sandiegouniontribune.com/business/growth-development/sd-fi-mobility-20170915-story.html\" target=\"_blank\" rel=\"noopener noreferrer\">Public invited to all-night hackathon to solve San Diego's commuting nightmare</a></li><li><span class=\"article-src\">[UCSD NEWS]</span> <a class=\"paragraph-link\" href=\"http://ucsdnews.ucsd.edu/pressrelease/public-invited-to-design-solutions-to-our-citys-biggest-issues\" target=\"_blank\" rel=\"noopener noreferrer\">Public Invited to Design Solutions to Our City’s Biggest Issues</a></li><li><span class=\"article-src\">[PSN]</span> (en español) <a class=\"paragraph-link\" href=\"https://psn.si/desafian-poblacion-transporte/2017/09/\" target=\"_blank\" rel=\"noopener noreferrer\">Desafían a la población a enfrentar los problemas de transporte en San Diego</a></li><ul>"
         }
       ],
       "moreDet": 
@@ -61,7 +61,9 @@
         },
         {
           "moreDetTitle": "Model Creation",
-          "moreDetImgPath": "/img/d4sd/model.jpg",
+          "moreDetImgPath": [
+            "/img/d4sd/model.jpg"
+          ],
           "moreDetContent": 
           [
             "Compiling user research, literature review and platform comparison, our group developed the following model for designing solutions for a civic project. I helped digitize this model into an infographic using Sketch."
@@ -69,7 +71,9 @@
         },
         {
           "moreDetTitle": "Process Flow Diagram",
-          "moreDetImgPath": "/img/d4sd/processFlow.jpg",
+          "moreDetImgPath": [
+            "/img/d4sd/processFlow.jpg"
+          ],
           "moreDetContent": 
           [
             "We translated the design model we created into a flow for users. We came up with a hybrid offline/online model, where the first stage was performed in-person, utilizing a design class to generate interview/observation data, and perform root cause analysis, essentially performing the first two stages in the model, Identify and Ideate. We then would then make that data available  to online users, who would use our tool to form teams and engage in the Prototype phase by designing solutions. The Implementation stage would happen offline, and depended on the commitment of outside entities (ie, from the government or sponsors).",
@@ -78,7 +82,9 @@
         },
         {
           "moreDetTitle": "Site Flow Diagram",
-          "moreDetImgPath": "/img/d4sd/flow-diagram.png",
+          "moreDetImgPath": [
+            "/img/d4sd/flow-diagram.png"
+          ],
           "moreDetContent": 
           [
             "We then listed the features of the process and compartmentalized them into pages in a way such that the user would have a clear system image when they navigated the site.",
@@ -87,7 +93,9 @@
         },
         {
           "moreDetTitle": "Lofi Wireframes",
-          "moreDetImgPath": "/img/d4sd/whiteboarding.jpg",
+          "moreDetImgPath": [
+            "/img/d4sd/whiteboarding.jpg"
+          ],
           "moreDetContent": 
           [
             "Compiling user research, literature review and platform comparison, our group developed the following model for designing solutions for a civic project:"
@@ -95,7 +103,9 @@
         },
         {
           "moreDetTitle": "Hifi Wireframes",
-          "moreDetImgPath": "/img/d4sd/wireframes.jpg",
+          "moreDetImgPath": [
+            "/img/d4sd/wireframes.jpg"
+          ],
           "moreDetContent": 
           [
             "For an earlier version of the site, and before I took on a more development-heavy role, I helped create high-fidelity mockups. One of the challenges we encountered was that the requirements and the specs kept rapidly changing, and so we had to constantly iterate from whiteboard to hi-fi prototypes within the span of days to address new constraints and goals. We found that the invision prototype was useful as a tool to quickly get a feel for look and flow of the site, which helped when we solicited feedback from the testers and sponsors.",
@@ -106,7 +116,9 @@
         },
         {
           "moreDetTitle": "Iconography",
-          "moreDetImgPath": "/img/d4sd/icons/alltogethernow.jpg",
+          "moreDetImgPath": [
+            "/img/d4sd/icons/alltogethernow.jpg"
+          ],
           "moreDetContent": 
           [
             "I made icons to represent the four main stages of the design process. I designed them using a wire-style to complement the theme of the site, and created them using Sketch."
@@ -114,7 +126,9 @@
         },
         {
           "moreDetTitle": "Kickoff Hackathon",
-          "moreDetImgPath": "/img/d4sd/kickoffEvent.jpg",
+          "moreDetImgPath": [
+            "/img/d4sd/kickoffEvent.jpg"
+          ],
           "imgCaption": "Photo by Erik Jepsen/UC San Diego Publications",
           "moreDetContent": 
           [
@@ -179,6 +193,15 @@
       ],
       "moreDet": 
       [
+        {
+          "moreDetTitle": "Hi-Fi Wireframes",
+          "moreDetImgPath": [
+            "/img/dopelst/wf-splash-page-min.jpg",
+            "/img/dopelst/wf-playlist-details-view-min.jpg",
+            "/img/dopelst/wf-album-index-view-min.jpg",
+            "/img/dopelst/wf-faq-min.jpg"
+          ]
+        },
         {
           "moreDetTitle": "The Takeaway",
           "moreDetContent": 
@@ -246,7 +269,9 @@
         },
         {
           "moreDetTitle": "Storyboarding",
-          "moreDetImgPath": "/img/frank/storyboard.jpg", 
+          "moreDetImgPath": [
+            "/img/frank/storyboard.jpg"
+          ],
           "moreDetContent": 
           [
             "We created storyboards to represent the main use cases for our App. We made a storyboards for our main case, which was that advice from strangers on our app would give more accurate and honest advice than a friend. One of the storyboards is pictured above."
@@ -254,7 +279,9 @@
         },
         {
           "moreDetTitle": "Paper/Lofi Prototypes",
-          "moreDetImgPath": "/img/frank/wf-lofi-1.jpg", 
+          "moreDetImgPath": [
+            "/img/frank/wf-lofi-1.jpg"
+          ],
           "moreDetContent": 
           [
             "Our next step was to create paper prototypes. Paper prototypes allowed us the cheaply and quickly work out and test the flow of our app. After finalizing our paper apps, we tested them with several users and noted their observations as well as heuristic violations. Some commentary we received, was that some sections were quite text-heavy and some of the buttons were too small."
@@ -262,7 +289,9 @@
         },
         {
           "moreDetTitle": "Digital/Hifi Prototypes",
-          "moreDetImgPath": "/img/frank/wf-med.jpg",
+          "moreDetImgPath": [
+            "/img/frank/wf-med.jpg"
+          ],
           "moreDetContent": 
           [
             "We then converted our paper prototypes to digital prototypes. We first converted our lofi paper prototypes into medium-fidelity digital prototypes.",
@@ -271,11 +300,19 @@
         },
         {
           "moreDetTitle": "Icons",
-          "moreDetImgPath": "/img/frank/icons.jpg",
           "moreDetContent": 
           [
             "I created several icons for the site using Adobe Illustrator. I used a flat style which I felt completed the aesthetic of the app as well as the icon styles that were popular in 2015. Most of them were used on the search page of the app to complement the categories listed there, the file icon on the right was used on the file-upload page."
-          ]
+          ],
+          "iconDump": [
+            "/img/frank/icons/icon_clothing.png",
+            "/img/frank/icons/icon_facialhair.png",
+            "/img/frank/icons/icon_hairstyles.png",
+            "/img/frank/icons/icon_makeup.png",
+            "/img/frank/icons/icon_shoes.png",
+            "/img/frank/icons/icons_clothing.png"
+          ],
+          "iconType": "no-bckgrd"
         },
         {
           "moreDetTitle": "2016 Redesign",
@@ -338,7 +375,9 @@
         },
         {
           "moreDetTitle": "User Research",
-          "moreDetImgPath": "", 
+          "moreDetImgPath": [
+            ""
+          ], 
           "moreDetContent": 
           [
             "This Advertisement Banner was displayed at UCSD's Price Center. It was also used as the background for the Kickoff Event. "
@@ -346,7 +385,9 @@
         },
         {
           "moreDetTitle": "Storyboards",
-          "moreDetImgPath": "", 
+          "moreDetImgPath": [
+            ""
+          ], 
           "moreDetContent": 
           [
             "This Advertisement Banner was displayed at UCSD's Price Center. It was also used as the background for the Kickoff Event. "
@@ -354,7 +395,9 @@
         },
         {
           "moreDetTitle": "Prototyping",
-          "moreDetImgPath": "", 
+          "moreDetImgPath": [
+            ""
+          ], 
           "moreDetContent": 
           [
             "This Advertisement Banner was displayed at UCSD's Price Center. It was also used as the background for the Kickoff Event. "
@@ -362,7 +405,9 @@
         },
         {
           "moreDetTitle": "Presentation Event",
-          "moreDetImgPath": "", 
+          "moreDetImgPath": [
+            ""
+          ], 
           "moreDetContent": 
           [
             "This Advertisement Banner was displayed at UCSD's Price Center. It was also used as the background for the Kickoff Event. "
@@ -370,7 +415,9 @@
         },
         {
           "moreDetTitle": "The Takeaway",
-          "moreDetImgPath": "", 
+          "moreDetImgPath": [
+            ""
+          ], 
           "moreDetContent": [
             "Especially on hot-button issues like autonomous vehicles, culture and previous experiences have deep influences on which concerns and benefits are important to the individual."
           ]
@@ -409,23 +456,31 @@
         },
         {
           "moreDetTitle": "Kickoff Event Advertisement Banner",
-          "moreDetImgPath": "/img/Fusion/ad-fusion-kickoff.png", 
+          "moreDetImgPath": [
+            "/img/Fusion/ad-fusion-kickoff.png"
+          ],
           "moreDetContent": 
           [
             "I designed this banner as an advertisement for the Fusion XV Kickoff event, a preshow dance showcase that was held to build anticipation for the main dance competition. This advertisement banner was shown at UCSD’s Price Center, the main student center, for two weeks. It was also later selected for use as a projected backdrop for the kickoff event itself."
           ]
         },
         {
-          "moreDetImgPath": "/img/Fusion/event-judges-sm-min.jpg", 
+          "moreDetImgPath": [
+            "/img/Fusion/event-judges-sm-min.jpg"
+          ],
           "moreDetContent": []
         },
         {
-          "moreDetImgPath": "/img/Fusion/event-audience-sm-min.jpg", 
+          "moreDetImgPath": [
+            "/img/Fusion/event-audience-sm-min.jpg"
+          ],
           "moreDetContent": []
         },
         {
           "moreDetTitle": "Name Tag Badges for the Main Competition",
-          "moreDetImgPath": "/img/Fusion/badges-tilt.jpg", 
+          "moreDetImgPath": [
+            "/img/Fusion/badges-tilt.jpg"
+          ],
           "moreDetContent": [
             "I collaborated with another designer on the team to create badges for the participants and staff. These badges were used during the main competition. There were three different categories of individuals: Performers, MCs and Judges, and Staff, and are differentiated using different color schemes. The badges can be seen below."
           ]
@@ -442,54 +497,59 @@
       "moreDet": 
       [
         {
-          "moreDetTitle": "D4SD",
-          "moreDetContent": 
-          [
-            "To create graphics for advertising and administrative purposes with a watercolor theme."
-          ],
-          "btnTitle": "see project",
-          "btnLink": "/project/d4sd"
-        },
-        {
           "moreDetTitle": "Design for San Diego",
-          "moreDetContent": 
-          [
-            "To create graphics for advertising and administrative purposes with a watercolor theme."
-          ]
+          "iconDump": [
+            "/img/icons/designForSD/icon-eye-final.png",
+            "/img/icons/designForSD/icon-hands-final.png",
+            "/img/icons/designForSD/icon-bulb-final.jpg",
+            "/img/icons/designForSD/icon-city-final.png"
+          ],
+          "iconType": "box"
         },
         {
           "moreDetTitle": "Frank",
-          "moreDetContent": 
-          [
-            "To create graphics for advertising and administrative purposes with a watercolor theme."
+          "iconDump": [
+            "/img/frank/icons/icon_clothing.png",
+            "/img/frank/icons/icon_facialhair.png",
+            "/img/frank/icons/icon_hairstyles.png",
+            "/img/frank/icons/icon_makeup.png",
+            "/img/frank/icons/icon_shoes.png",
+            "/img/frank/icons/icons_clothing.png",
+            "/img/frank/icons/file.png"
           ],
-          "btnTitle": "see project",
-          "btnLink": "/project/frank"
+          "iconType": "no-bckgrd"
         },
         {
           "moreDetTitle": "laurenliu.me",
-          "moreDetContent": 
-          [
-            "To create graphics for advertising and administrative purposes with a watercolor theme."
+          "iconDump": [
+            "/img/personal/logo.png"
           ],
-          "btnTitle": "see project",
-          "btnLink": "/project/personal"
+          "iconType": "logo"
+        },
+        {
+          "moreDetTitle": "D4SD",
+          "iconDump": [
+            "/img/d4sd/icons/diagnose.png",
+            "/img/d4sd/icons/ideate.png",
+            "/img/d4sd/icons/implement.png",
+            "/img/d4sd/icons/propose.png"
+          ],
+          "iconType": "no-bckgrd"
         },
         {
           "moreDetTitle": "dopeLst",
-          "moreDetContent": 
-          [
-            "To create graphics for advertising and administrative purposes with a watercolor theme."
+          "iconDump": [
+            "/img/dopelst/icon-edit.png",
+            "/img/dopelst/icon-trash.png"
           ],
-          "btnTitle": "see project",
-          "btnLink": "/project/dopelst"
+          "iconType": "no-bckgrd"
         },
         {
           "moreDetTitle": "Garden Club",
-          "moreDetContent": 
-          [
-            "To create graphics for advertising and administrative purposes with a watercolor theme."
-          ]
+          "iconDump": [
+            "/img/icons/gardenClub/logo-gtt-2.png"
+          ],
+          "iconType": "logo"
         }
       ]
     }

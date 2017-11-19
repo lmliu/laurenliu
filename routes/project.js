@@ -2,7 +2,6 @@ var projects = require('../src/projects.json')['projects'];
 
 /* renders page */
 exports.view = function(req, res) {
-  console.log(projects);
   var bkgClass = req.params.bkgClass;
   var projectObj = getProject(bkgClass);
 
