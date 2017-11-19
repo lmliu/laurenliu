@@ -104,7 +104,7 @@ exports.view = function(req,res) {
       {
         'bkgClass': 'iconography',
         'tag': dsgn,
-        'projectTitle': 'Iconography',
+        'projectTitle': 'Icons & Logos',
         'projectDesc': 'I’ve made icons for various projects over the course of the years. Click “More Info” below to see a collection of them.',
         'infoPath': '/project',
         'imgPath': '/img/icons/preview-icons-dt.png',
