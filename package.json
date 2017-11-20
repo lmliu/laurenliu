@@ -23,6 +23,7 @@
     "compression": "*",
     "express": "*",
     "express-handlebars": "*",
+    "gsap": "*",
     "grunt": "^1.0.1",
     "morgan": "*",
     "normalize-scss": "^6.0.0",

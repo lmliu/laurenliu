@@ -201,8 +201,12 @@ body {
           margin-bottom: 0;
         }
         div.det-wrap {
-          padding: 5px 10px;
-          background-color: black;
+
+          background-color: #fff;
+          @media screen and (min-width: $max-width-tb) {
+            padding: 5px 10px;
+            background-color: #000;
+          }
           p.details-year {
             margin-right: -($font-size*0.3);
 
@@ -213,10 +217,9 @@ body {
             
             @media screen and (max-width: $max-width-tb) {
               padding: 0;
-
+              margin-right: 0;
               font-weight: 700;
               color: #000;
-              background-color: #fff;
             }
           }
         }

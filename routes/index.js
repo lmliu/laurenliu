@@ -3,10 +3,6 @@
  */
 
 exports.view = function(req,res) {
-	res.render('index');
-};
-
-exports.view = function(req,res) {
   /* TAGS */
   var both = '[DEV+DSGN]';
   var dev = '[DEV]';
