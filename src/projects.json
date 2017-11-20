@@ -25,7 +25,7 @@
         },
         {
           "glanceTitle": "Main Takeaway",
-          "glanceDet": "Working on a large team on a large-scale project takes a nuaced appraoch. Also, the mythical man-month is real. Onboarding new team members takes a significant lead time."
+          "glanceDet": "Working on a large team on a large-scale project takes a nuanced approach. Also, the mythical man-month is real. Onboarding new team members takes a significant lead time."
         },
         {
           "glanceTitle": "In The News",
@@ -38,8 +38,8 @@
           "moreDetTitle": "My Roles",
           "moreDetContent":
           [
-            "I was primarily a UX Engineer whose roles were to build out prototypes and optimize the site. But as the launch date neared and the iteration cycles became shorter, I took on a multi-functional role that spanned from designing to front-end development, depending on what was needed at the moment.  I was a liaison between the design and development team, and also communicated with the marketing team as we shaped the site and it’s content.",
-            "Earlier in the process, I also contributed significantly as a product designer, using user research analysis, literature review, and existing product comparisons to develop the core principles and flow of the challenge process and how they would be displayed on a digital medium. I also designed lo-fi and hi-fi prototypes for the pages on the site, as well as created some graphical elements such as icons."
+            "I was primarily an UX Engineer whose roles were to build out prototypes and optimize the site. But as the launch date neared and the iteration cycles became shorter, I took on a multi-functional role that spanned from designing to front-end development, depending on what was needed at the moment.  I was a liaison between the design and development teams, and also communicated with the marketing team as we shaped the site and its content.",
+            "Earlier in the process, I also contributed significantly as a product designer. I used user research analysis, literature review, and existing product comparisons to develop the core principles and flow of the challenge process and how they would be displayed on a digital medium. I also designed lo-fi and hi-fi prototypes for the pages on the site, as well as created some graphical elements such as icons."
           ]
         },
         {
@@ -53,10 +53,10 @@
           "moreDetTitle": "The Background",
           "moreDetContent": 
           [
-            "While a lot of focus is given to politics at a national level, local-level politics often flies under the radar. Voter turnout in local elections hovers around 20% which compared to 2016’s presidential election turnout of 58%, is considerably low. There creates an issue where citizens are dissatisfied with politics and the outcomes, and yet do not engage with the level of government that most directly affects them.",
-            "Part of this problem can be traced to the difficulty of accessing the deliberation process before the decisions are made. For instance, town halls, popular forums for voicing concerns to city council members, are typically held on weekdays in the middle of the day, making it difficult for students or working individuals to attend.",
+            "While a lot of focus is given to politics at a national level, local-level politics often flies under the radar. Voter turnout in local elections hovers around 20%, which compared to 2016’s presidential election turnout of 58%, is considerably lower. An issue arises where citizens are dissatisfied with politics and the outcomes, and yet do not engage with the level of government that affects them the most.",
+            "Part of the problem is the difficulty of accessing the deliberation process before the decisions are made. For instance, town halls, popular forums for voicing concerns to city council members, are typically held on weekdays in the middle of the day, making it difficult for students or working individuals to attend.",
             "Our solution to this was to create an online platform, an accessible mode of communication where users could directly engage in civic debate without being constrained by time or a physical location.",
-            "This, however, created it’s own set of challenges. There is a lot of benefit to face-to-face interactions. Being able to detect tone, read body language, and deliberate in real time gives invaluable context and creates momentum that can result in a constructive debate. While online forms of communication are more accessible, they eliminate these context clues and create asynchronicity problems that can curb or stop the flow of dialogue. There’s a challenge to balancing these tradeoffs while trying to gain more benefits than costs."
+            "This solution, however, created its own set of challenges. There is a lot of benefit to face-to-face interactions. Being able to detect tone, read body language, and deliberate in real time gives invaluable context and creates momentum that can result in a constructive debate. While online forms of communication are more accessible, they eliminate these context clues and create asynchronicity problems that can curb or stop the flow of dialogue. There’s a challenge to balancing these tradeoffs while trying to gain more benefits than costs."
           ]
         },
         {
@@ -66,7 +66,7 @@
           ],
           "moreDetContent": 
           [
-            "Compiling user research, literature review and platform comparison, our group developed the following model for designing solutions for a civic project. I helped digitize this model into an infographic using Sketch."
+            "Compiling user research, literature review and platform comparisons, our group developed the following model for designing solutions for a civic project. I helped digitize this model into an infographic using Sketch."
           ]
         },
         {
@@ -76,8 +76,8 @@
           ],
           "moreDetContent": 
           [
-            "We translated the design model we created into a flow for users. We came up with a hybrid offline/online model, where the first stage was performed in-person, utilizing a design class to generate interview/observation data, and perform root cause analysis, essentially performing the first two stages in the model, Identify and Ideate. We then would then make that data available  to online users, who would use our tool to form teams and engage in the Prototype phase by designing solutions. The Implementation stage would happen offline, and depended on the commitment of outside entities (ie, from the government or sponsors).",
-            "While some of the specific technologies listed in the flow diagram below were not used the the final product, the general flow remained the same. I created this diagram for our team using Powerpoint."
+            "We translated the design model we created into a flow for users. We developed a hybrid offline/online model, where the first two stages were performed in-person, utilizing a design class to generate interview/observation data, and perform root cause analysis. Then, we made that data available to online users, who used our tool to form teams and engage in the Prototype phase by designing solutions. The Implementation stage would happen offline, and depended on the commitment of outside entities (ie, from the government or sponsors).",
+            "While some of the specific technologies listed in the flow diagram below were not used in the final product, the general flow remained the same. I created this diagram for our team using Powerpoint."
           ]
         },
         {
@@ -87,8 +87,8 @@
           ],
           "moreDetContent": 
           [
-            "We then listed the features of the process and compartmentalized them into pages in a way such that the user would have a clear system image when they navigated the site.",
-            "More pages were added later, but the five main pages/templates we knew we needed were a landing page, a team/about page, a “get involved” page for launching users into other features (this included forming teams, discussing topics, etc), a “challenge index” page which listed all of the possible mobility challenge ideas, and a page for each challenge that would function a as a wiki page for information and outside resources. I also created this chart using Powerpoint."
+            "We then listed the features of the process and compartmentalized them into pages in a way that the user would have a clear system image when they navigated the site.",
+            "More pages were added later, but the five main pages/templates we needed were a landing page, a team/about page, a “get involved” page for launching users into other features (this included forming teams, discussing topics, etc), a “challenge index” page which listed all of the possible mobility challenge ideas, and a page for each challenge that would function a as a wiki page for information and outside resources. I also created this chart using Powerpoint."
           ]
         },
         {
@@ -108,8 +108,8 @@
           ],
           "moreDetContent": 
           [
-            "For an earlier version of the site, and before I took on a more development-heavy role, I helped create high-fidelity mockups. One of the challenges we encountered was that the requirements and the specs kept rapidly changing, and so we had to constantly iterate from whiteboard to hi-fi prototypes within the span of days to address new constraints and goals. We found that the invision prototype was useful as a tool to quickly get a feel for look and flow of the site, which helped when we solicited feedback from the testers and sponsors.",
-            "Below the image is a link to one of the invision mockups I helped make. I made a few of the pages, notably the index page, the challenge index page, and the team page, and arranged all the wireframes on invision. Not all of the pages were fleshed out at the point, and the design has since changed."
+            "For an earlier version of the site, and before I took on a more development-heavy role, I helped create high-fidelity mockups. One of the challenges we encountered was that the requirements and the specs were rapidly changing, and so we had to constantly iterate from whiteboard to hi-fi prototypes within the span of days to address new constraints and goals. We found that the invision prototype was useful as a tool to quickly get a feel for look and flow of the site, which helped when we solicited feedback from the testers and sponsors.",
+            "Below the image is a link to one of the invision mockups I helped make. I made a few of the pages, notably the index page, the challenge index page, and the team page, and arranged all the wireframes on invision. Not all of the pages were completed at that point, and the design has since changed."
           ],
           "btnTitle": "VIEW INVISION PROTOTYPE",
           "btnLink": "https://projects.invisionapp.com/share/9QBOKS9VR#/screens/233401076"
@@ -127,7 +127,7 @@
           ],
           "moreDetContent": 
           [
-            "I made icons to represent the four main stages of the design process. I designed them using a wire-style to complement the theme of the site, and created them using Sketch."
+            "I made icons to represent the four main stages of the design process. I designed them using a wire style design to complement the theme of the site, and created them using Sketch."
           ]
         },
         {
@@ -138,7 +138,7 @@
           "imgCaption": "Photo by Erik Jepsen/UC San Diego Publications",
           "moreDetContent": 
           [
-            "We held a kickoff event to launch contestants into the projects. About 100 individuals attended, and they were given a set amount of time to begin hashing out their solutions. Design Lab Director Don Norman, UCSD Chancellor Pradeep K. Khosla, and San Diego Mayor Kevin Faulconer also attended and made opening remarks."
+            "We held a kickoff event to launch contestants into the projects. About 100 individuals attended, and they were given a period of time to begin hashing out their solutions. Design Lab Director Don Norman, UCSD Chancellor Pradeep K. Khosla, and San Diego Mayor Kevin Faulconer also attended and made opening remarks."
           ]
         },
         {
@@ -154,9 +154,9 @@
           "moreDetTitle": "The Takeaway",
           "moreDetContent": 
           [
-            "D4SD was a year-long project for which <span class=\"det-highlights\">I contributed as a Front-End Developer, Product Designer, and UX Engineer.</span> I was able to observe every part of the process, from literature review to UX/UI design to development, and gained valuable insights into how each part works together.",
+            "D4SD was a year-long project for which <span class=\"det-highlights\">I contributed as a Front-End Developer, Product Designer, and UX Engineer.</span> I observed every part of the process, from literature review to UX/UI design to development, and gained valuable insights into how each part works together.",
             "One observation is that having knowledge of programming and design allowed me to bridge the gap and design wireframes that could both solve UX problems and be quickly and reliably implemented given the structure of the system. This turned out to be valuable, because we were working on three-week cycles from lo-fi wireframes to first builds for most of production.",
-            "Another observation is that <span class=\"det-highlights\">an important component of system design is understanding the skillset of your team and the problem at hand</span>. We over-engineered our site, using a complex tech stack that takes a non-trivial amount of time to learn, and provided features and benefits that we did not end up needing. This led to lengthy onboarding times down the road, especially as the release date neared.",
+            "Another observation is that <span class=\"det-highlights\">an important component of system design is understanding the skill set of your team and the problem at hand</span>. We over-engineered our site, using a complex tech stack that takes a non-trivial amount of time to learn, and provided features and benefits that we did not end up needing. This led to lengthy onboarding times down the road, especially as the release date neared.",
             "This feeds into the next observation, that <span class=\"det-highlights\">onboarding new members has a lead time cost</span>. It takes time to introduce new members to an existing system and existing workflow. Specifically for development, there is an additional configuration and initialization step which, for our team, took about a day or two on average.",
             "Finally, <span class=\"det-highlights\">within complex projects that have fast turnarounds, prioritization of objectives is highly important</span>. We often had issues that would have been nice to fix, but not feature-breaking and time consuming to implement. In the face on an impending deadline and the existence of other feature-breaking bugs, being able to rank the issues in terms of impact and implementation time helped us make the most effective fixes given the constraints."
           ]
