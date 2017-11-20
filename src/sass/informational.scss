@@ -9,56 +9,22 @@ body {
   height: 100%;
   width: 100%;
 
-  background-color: #000;
-
   section.info-page {
-    height: 100;
-    width: $body-width;
-
-    margin: 10% auto 0 auto;
-
-    color: #fff;
-
-    h1 {
-      font-size: $font-size*2.5;
-      font-weight: 500;
-    }
-
-    div.project-index-wrapper {
-
-      margin: 10% 0;
+    height: 100%;
+    width: 100%;
+    div.info-wrapper {
+      height: 100%;
+      width: 100%;
       display: flex;
-      justify-content: space-between;
-      div.project-index-section {
+      align-items: center;
+      justify-content: center;
 
-        div.pi-header-box {
-          $box-width: 250px;
-          width: $box-width;
-          padding: 10px;
-          background-color: $box-color-1;
+      div.info-flex-wrapper {
 
-          h3 {
-            text-align: center;
+        width: 600px;
 
-            font-size: $font-size*0.9;
-          }
-        }
-
-        div.pi-links {
-          ul > li {
-            list-style-type: none;
-            margin: $font-size;
-
-            a {
-              opacity: 0.8;
-              color: #fff;
-              text-decoration: none;
-
-              &:hover {
-                opacity: 1;
-              }
-            }
-          }
+        h1.page-title {
+          text-align: center;
         }
       }
     }
