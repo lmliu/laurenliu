@@ -200,23 +200,24 @@ body {
         @media screen and (max-width: $max-width-tb) {
           margin-bottom: 0;
         }
-
-        p.details-year {
-          width: 40px;
+        div.det-wrap {
           padding: 5px 10px;
-
-          color: #fff;
-          font-size: $font-size*0.8;
-          font-weight: 500;
-          letter-spacing: $font-size*0.3;
           background-color: black;
-          
-          @media screen and (max-width: $max-width-tb) {
-            padding: 0;
+          p.details-year {
+            margin-right: -($font-size*0.3);
 
-            font-weight: 700;
-            color: #000;
-            background-color: #fff;
+            color: #fff;
+            font-size: $font-size*0.8;
+            font-weight: 500;
+            letter-spacing: $font-size*0.3;
+            
+            @media screen and (max-width: $max-width-tb) {
+              padding: 0;
+
+              font-weight: 700;
+              color: #000;
+              background-color: #fff;
+            }
           }
         }
       }

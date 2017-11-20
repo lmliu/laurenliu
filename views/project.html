@@ -47,7 +47,9 @@
 
     <div class="right-side">
       <div class="details-year-wrapper">
-        <p class="details-year">{{year}}</p>
+        <div class="det-wrap">
+          <p class="details-year">{{year}}</p>
+        </div>
       </div><!-- .details-year-wrapper -->
       <div id="details-header" class="project-section">
         <h1 id={{bkgClass}}>{{projectTitle}}</h1>
@@ -111,7 +113,7 @@
                     {{#unless noLink}}
                       <a href={{btnLink}} class="more-det-btn" target="_blank" rel="noopener noreferrer">&raquo;&nbsp; {{btnTitle}} &nbsp;&laquo;</a>
                     {{else}}
-                      <a id="no-link" class="more-det-btn">&raquo;&nbsp; {{btnTitle}} &nbsp;&laquo;</a>
+                      <a id="no-link" class="more-det-no-link-btn">&raquo;&nbsp; {{btnTitle}} &nbsp;&laquo;</a>
                     {{/unless}}
                   </div>
                 {{/if}}

@@ -26,8 +26,14 @@ nav {
     align-content: center;
     a#logo {
       margin-right: $navbar-padding*2;
-      font-family: $fjalla-one;
-      font-size: $navbar-size*1.5;
+      img {
+        width: 100px;
+      }
+
+      &:hover {
+        opacity: 0.5;
+        transition: opacity 0.5s ease 0s;
+      }
     }
     a.side-nav {
       margin-right: $navbar-padding;
@@ -39,6 +45,7 @@ nav {
 
       &:hover {
         color: $hover-color;
+        transition: color 0.5s ease 0s;
       }
     }
   }

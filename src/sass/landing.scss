@@ -40,23 +40,9 @@ html {
           margin: 0 auto;
 
           div#logo-border { 
-            $logo-spacing-margin: 30px;
-
-            width: 250px;
-            margin: $logo-spacing-margin auto;
-            padding: 3px 10px;
-            background-color: #000;
-            h1#landing-logo {
-              $letter-spacing: 0.25em;
-
-              margin-right: -$letter-spacing; //letter-spacing
-              
-              text-align: center;
-              
-              font-size: $font-size*2;
-              font-weight: 500;
-              color: #fff;
-              letter-spacing: $letter-spacing;
+            margin: 20px auto;
+            img {
+              width: 200px;
             }
           }
           p#landing-description {
