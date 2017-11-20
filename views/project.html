@@ -108,7 +108,11 @@
                 {{/if}}
                 {{#if btnTitle}}
                   <div class="btn-wrap">
-                    <a href={{btnLink}} class="more-det-btn" target="_blank" rel="noopener noreferrer">&raquo;&nbsp; {{btnTitle}} &nbsp;&laquo;</a>
+                    {{#unless noLink}}
+                      <a href={{btnLink}} class="more-det-btn" target="_blank" rel="noopener noreferrer">&raquo;&nbsp; {{btnTitle}} &nbsp;&laquo;</a>
+                    {{else}}
+                      <a id="no-link" class="more-det-btn">&raquo;&nbsp; {{btnTitle}} &nbsp;&laquo;</a>
+                    {{/unless}}
                   </div>
                 {{/if}}
               </div><!-- .detail-section -->

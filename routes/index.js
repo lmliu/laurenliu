@@ -34,8 +34,8 @@ exports.view = function(req,res) {
         'tag': both,
         'projectTitle': 'laurenliu.me',
         'projectDesc': 'A personal portfolio to showcase my work. Designed and built by me with blood, sweat, and caffeine (but mostly caffeine). ',
-        'infoPath': 'yes',
-        'siteLink': 'https://dopelst-a697d.firebaseapp.com/',
+        'comingSoon': 'yes',
+        'siteLink': 'http://laurenliu.me',
         'imgPath': '/img/personal/logo.png',
         'roles': [
           'Developer', 
@@ -65,6 +65,7 @@ exports.view = function(req,res) {
         'projectTitle': 'Frank',
         'projectDesc': 'Frank is a social media web mobile website designed for fashion feedback. The site allows users to post photos and receive feedback through a rating system and a comment section.',
         'infoPath': '/project',
+        'altProdTitle': 'VIEW SITE (MOBILE)',
         'siteLink': 'https://frank-app.herokuapp.com/',
         'imgPath': '/img/preview-frank.png',
         'roles': [
@@ -79,7 +80,9 @@ exports.view = function(req,res) {
         'tag': dsgn,
         'projectTitle': 'A.V.I.C.S',
         'projectDesc': 'A.V.I.C.S is short for "Autonomous Vehicle Intent Communication System." It\'s a prototype for communication between self-driving cars and other entities that will share roads.',
-        'infoPath': '/project',
+        'comingSoon': 'yes',
+        'altProdTitle': 'VIEW POSTER',
+        'siteLink': '/hq/avics-poster.pdf',
         'imgPath': '/img/AVICS/poster-min.png',
         'roles': [
           'Designer',

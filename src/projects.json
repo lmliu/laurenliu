@@ -176,15 +176,15 @@
         },
         {
           "glanceTitle": "The Team",
-          "glanceDet": "3 developers"
+          "glanceDet": "3 Developers"
         },
         {
           "glanceTitle": "Main Takeaway",
-          "glanceDet": "Low latency is incredibly important. Tradeoffs in site speed are usually made at the expense of code complexity or aesthetics. also dropshadows? Surprisingly expensive."
+          "glanceDet": "Low latency is incredibly important. Tradeoffs in site speed are usually made at the expense of code complexity or aesthetics. Also dropshadows? Surprisingly expensive."
         },
         {
           "glanceTitle": "It Won Some Things",
-          "glanceDet": "🏆 Top 3 Fastest Sites in the Class, 🏆 Top Tier UX/UI"
+          "glanceDet": "🏆 Top 3 Fastest Sites in the Class, 🏆 Top Tier UX/UI in the Class"
         }, 
         {
           "glanceTitle": "A Fun Fact",
@@ -194,7 +194,28 @@
       "moreDet": 
       [
         {
+          "moreDetTitle": "My Roles",
+          "moreDetContent": [
+            "I designed the flow of the site, designed the wireframes, and contributed to the front-end development of the site."
+          ]
+        },
+        {
+          "moreDetTitle": "The Goal",
+          "moreDetContent": [
+            "To build a CRUD indexing site that is clean and fast even under limited network conditions."
+          ]
+        },
+        {
+          "moreDetTitle": "Context",
+          "moreDetContent": [
+            "Coming Soon."
+          ]
+        },
+        {
           "moreDetTitle": "Hi-Fi Wireframes",
+          "moreDetContent": [
+            "Our focus was to design a platform that was clean, intuitive, and most importantly fast. I made these wireframes with these goals in mind. Since the purpose of this app was an exercise in creating an fast CRUD application, we did not perform user testing, and instead focused our research on design practices that increased speed. This led to decisions such as <a class=\"paragraph-link\" href=\"https://medium.com/airbnb-engineering/css-box-shadow-can-slow-down-scrolling-d8ea47ec6867\" target=\"blank\" rel=\"noopener noreferrer\">limiting dropshadows</a>. We tested our choices using <a class=\"paragraph-link\" href=\"https://developers.google.com/web/tools/lighthouse/\" target=\"_blank\" rel=\"noopener noreferrer\">Google Lighthouse</a>, which among other things rated us on speed performance, and also helped in improving our coding style quality."
+          ],
           "moreDetImgPath": [
             "/img/dopelst/wf-splash-page-min.jpg",
             "/img/dopelst/wf-playlist-details-view-min.jpg",
@@ -203,14 +224,19 @@
           ]
         },
         {
+          "moreDetTitle": "Development",
+          "moreDetContent": [
+            "Coming Soon."
+          ]
+        },
+        {
           "moreDetTitle": "The Takeaway",
           "moreDetContent": 
           [
-            "Latency is very important, and design has a significant effect on it. According to RAIL, if load time for a page exceeds one second, the flow will be broken and user’s attention will wander. We made ecompromises on designs to speed up our site, for instance <a class=\"paragraph-link\" href=\"https://medium.com/airbnb-engineering/css-box-shadow-can-slow-down-scrolling-d8ea47ec6867#.b8jj29awr\">eliminating box shadows</a>  to speed scrolling times and reducing the number of gradients.",
-            "Additionally, as phones become the primary way users browse the internet, a mobile-first approach becomes increasingly important. As a result, we made special design and build considerations for mobile browsers since they are slower than computers at loading data, which is only compounded by faulty wifi and slow data speeds.",
-            "One of our solutions was to create a separate, flatter style for the mobile playlist.",
-            "We used media queries to handle screen-size detection and wrote it such that our mobile styles were default and our tablet and desktop styles were handled by the queries. This greatly reduced the amount of selectors the mobile browser had to parse through.",
-            "Our second solution, designing it as a PWA, also helped reduce load times and reduced the effect of unreliable networks. It also provides some advantages of native apps (fast data fetches, offline access via caching) without the initialization cost of having to configure an app."
+            "<span class=\"det-highlights\">Latency is very important, and design significantly affects it.</span> According to RAIL, if load time for a page exceeds one second, the flow will be broken and user’s attention will wander. We made ecompromises on designs to speed up our site, for instance <a class=\"paragraph-link\" href=\"https://medium.com/airbnb-engineering/css-box-shadow-can-slow-down-scrolling-d8ea47ec6867#.b8jj29awr\">eliminating box shadows</a>  to speed scrolling times and reducing the number of gradients.",
+            "Additionally, <span class=\"det-highlights\">as phones become the primary way users browse the internet, a mobile-first approach becomes increasingly important</span>. As a result, we made special design and build considerations for mobile browsers since they are slower than computers at loading data, which is only compounded by faulty wifi and slow data speeds.",
+            "One of our solutions was to create a separate, flatter style for the mobile playlist. We also used media queries to handle screen-size detection and wrote it such that our mobile styles were default and our tablet and desktop styles were handled by the queries. This greatly reduced the amount of selectors the mobile browser had to parse through.",
+            "Our second solution, <span class=\"det-highlights\">designing it as a PWA, also helped reduce load times and reduced the effect of unreliable networks.</span> It also provides some advantages of native apps (fast data fetches, offline access via caching) without the initialization cost of having to configure an app."
           ]
         }
       ]
@@ -223,7 +249,7 @@
       "detDescr": "Frank is social network application designed to help users improve their fashion. Users can post photos of their clothes and recieve brutally honest critiques in the form of either upvotes or comments.",
       "leftImgPath": "/img/preview-frank.png",
       "siteLink": "https://frank-app.herokuapp.com/",
-      "altText": "View Prototype",
+      "altText": "View Prototype (mobile)",
       "atAGlance": [
         {
           "glanceTitle": "Tech Used",
@@ -244,6 +270,13 @@
       ],
       "moreDet": 
       [
+        {
+          "moreDetTitle": "My Roles",
+          "moreDetContent": 
+          [
+            "I performed user research, designed the lofi and hifi wireframes, and helped develop the prototype site."
+          ]
+        },
         {
           "moreDetTitle": "The Goal",
           "moreDetContent": 
@@ -319,6 +352,16 @@
           "moreDetContent": 
           [
             "In 2016, as a personal project for myself, I redesigned Frank. I adjusted colors and styles, but also came up with a more indepth comment system. Most of these adjustments came from the feedback we received from our prior iteration."
+          ],
+          "btnTitle": "INVISION PROTOTYPE COMING SOON",
+          "btnLink": "/",
+          "noLink": "yes"
+        },
+        {
+          "moreDetTitle": "Development",
+          "moreDetContent": 
+          [
+            "Coming soon."
           ]
         },
         {
@@ -503,6 +546,16 @@
             "/img/icons/designForSD/icon-hands-final.png",
             "/img/icons/designForSD/icon-bulb-final.jpg",
             "/img/icons/designForSD/icon-city-final.png"
+          ],
+          "iconType": "box"
+        },
+        {
+          "iconDump": [
+            "/img/icons/timeline/boat.png",
+            "/img/icons/timeline/diagnose.png",
+            "/img/icons/timeline/implement.png",
+            "/img/icons/timeline/synthesize-2.png",
+            "/img/icons/timeline/synthesize.png"
           ],
           "iconType": "box"
         },

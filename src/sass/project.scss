@@ -327,7 +327,7 @@ body {
             }
             div.icon-wrap {
               width: 100%;
-              margin: $section-spacing*0.75 0 $section-spacing*0.75 0;
+              margin: $section-spacing*0.75 0 $section-spacing*1 0;
               text-align: center;
 
               div.icon-el {
@@ -370,6 +370,14 @@ body {
               padding-bottom: $det-spacing;
               display: flex;
               justify-content: center;
+              a#no-link {
+                opacity: 0.3;
+
+                &:hover {
+                  color: #fff;
+                  background-color: #000;
+                }
+              }
               a.more-det-btn {
                 padding: 7px 15px;
 
