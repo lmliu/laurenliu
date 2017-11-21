@@ -14,6 +14,12 @@ $primaryColor: #eeffcc;
 
 $font-size: 1em;
 
+$p-l-marg: 5%;
+$header-par-marg: 5px;
+//paragraph opacity
+$p-opacity: 0.6;
+$det-bold: 700;
+
 * {
   margin: 0;
   padding: 0;
@@ -92,6 +98,48 @@ p#landing-description {
 
   span {
     font-weight: bold;
+  }
+}
+
+/** LIST STYLES **/
+ul#glance-ul, ol.paragraph-ul {
+  margin-left: $p-l-marg;
+  li {
+    margin: $header-par-marg*2 0;
+    font-size: $font-size*0.8;
+    opacity: $p-opacity;
+    span {
+      font-weight: $det-bold;
+    }
+
+    ul#glance-articles {
+      margin-left: $p-l-marg*0.4;
+
+      li {
+        padding: 2.5px 0;
+        list-style-type: none;
+        span.article-src {
+          font-size: $font-size;
+          font-weight: 600;
+          letter-spacing: 1px;
+        }
+
+        a {
+          font-size: $font-size*1.2;
+        }
+      }
+    }
+  }
+}
+
+/** LINK STYLES */
+a.paragraph-link {
+  font-weight: 600;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.5;
+    transition: opacity 1s ease 0s;
   }
 }
 

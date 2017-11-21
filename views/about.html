@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="/css/portfolio.min.css" />
   <link rel="stylesheet" href="/css/nav.min.css" />
   <link rel="stylesheet" href="/css/informational.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
   {{> nav}}
@@ -12,21 +13,30 @@
     <div class="info-wrapper">
       <div class="info-flex-wrapper">
         <h1 class="page-title">HEY THERE</h1>
-        <p id="landing-description">The name's Lauren. I like designing and building sites that are fast, user-friendly and aesthetic.</p>
-        <h3>Here's a shortlist of what I can do:</h3>
-        <ul>
-          <li>code in Java, JS, HTML, and CSS/SASS</li>
-          <li>develop with GIT, Eclipse, VIM, Sublime Text</li>
-          <li>design with Adobe Photoshop, Illustrator, Invision, Sketch</li>
-        </ul>
-        <h3>I'm currently working on:</h3>
-        <p id="landing-description">the website for a project called <a href="d4sd.org">D4SD</a>, an initiative for engaging the public in 
-        designing solutions for some of San Diego's burning civic issues. My role is a front-end developer and an UX/UI designer.</p>
-        <h3>A little bit about me:</h3>
-        <p id="landing-description">I like <a href="">taking photos</a>, traveling, and food. I also love airplants and succulents
-        (my collection's 18 strong, and growing).</p>
-        <h2>Check out my <a href="/resume.pdf">resume</a> for more details.</h2>
-        <p id="landing-description">Want to get in touch? Shoot me an email at laurenmliu[at]gmail[dot]com, or send me an message on <a href="https://www.linkedin.com/in/lauren-liu-86520a46/">linkedin</a> </p>
+        <p id="about-description">The name's Lauren. I like designing and building sites that are fast, user-friendly and aesthetic.</p>
+        
+        <div class="about-section">
+          <h3>Here's a shortlist of what I can do</h3>
+          <ul id="glance-ul">
+            <li>code in Java, JS, HTML, and CSS/SASS</li>
+            <li>develop with GIT, Eclipse, VIM, Sublime Text</li>
+            <li>design with Adobe Photoshop, Illustrator, Invision, Sketch</li>
+          </ul>
+        </div><!-- .about-section -->
+        <div class="about-section">
+          <h3>I'm currently working on</h3>
+          <p class="info-text">&mdash; the website for a project called <a class="paragraph-link" href="/project/d4sd">D4SD</a>, an initiative for engaging the public in 
+          designing solutions for some of San Diego's burning civic issues. My role is a front-end developer and an UX/UI designer.</p>
+        </div><!-- .about-section -->
+        <div class="about-section">
+          <h3>A little bit about me</h3>
+          <p class="info-text">&mdash; I like <a class="paragraph-link" href="https://500px.com/laurenmliu">taking photos</a>, traveling, and food. I also love airplants and succulents
+          (my collection's 18 strong, and growing).</p>
+        </div><!-- .about-section -->
+        <div class="about-section">
+          <h3>Check out my <a class="paragraph-link" href="/resume.pdf">resume</a> for more details.</h3>
+          <p class="info-text"> &mdash; Want to get in touch? Shoot me an email at laurenmliu[at]gmail[dot]com, or send me a message on <a class="paragraph-link" href="https://www.linkedin.com/in/lauren-liu-86520a46/">linkedin.</a> </p>
+        </div><!-- .about-section -->
       </div><!-- .info-flex-wrapper -->
     </div><!-- .about-wrapper -->
   </section><!--info-page-->
