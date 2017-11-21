@@ -4,9 +4,9 @@
 
 exports.view = function(req,res) {
   /* TAGS */
-  var both = '[DEV+DSGN]';
+  var both = '[DEV/DESIGN]';
   var dev = '[DEV]';
-  var dsgn = '[DSGN]';
+  var dsgn = '[DESIGN]';
 
   res.render('index', {
     'projects': [
@@ -23,7 +23,7 @@ exports.view = function(req,res) {
           'Designer'
         ],
         'year': 'Ongoing',
-        'type': 'web' 
+        'type': 'Web' 
       },
       {
         'bkgClass': 'personal',
