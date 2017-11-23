@@ -1,7 +1,12 @@
 /** SASS FOR ABOUT, PROJECT INDEX PAGES */
+@import url(https://fonts.googleapis.com/css?family=Lato);
 $body-width: 960px;
 $font-size: 1em;
 $box-color-1: #41BA9F;
+$p-letter-space: 0.5;
+$p-margin: 20px;
+
+$avenir: 'Avenir', 'Lato', Helvetica, sans-serif;
 
 body {
   
@@ -11,6 +16,9 @@ body {
   section.info-page {
     height: 100%;
     width: 100%;
+    
+    display: flex;
+    align-items: center;
     div.info-wrapper {
       height: 100%;
       width: 100%;
@@ -32,18 +40,25 @@ body {
           width: 86%;
           margin: 40px auto;
         }
+        
+        div.info-header {
+          text-align: center;
+          margin-bottom: 80px;
+        }
 
-
-        h1.page-title {
-          font-size: $font-size*2;
-          letter-spacing: 1px;
+        h1.info-title {
+          font-family: $avenir;
+          font-size: $font-size*1.5;
+          letter-spacing: 0.5px;
+        }
+        p {          
+          font-size: $font-size;
+          letter-spacing: $p-letter-space;
+          opacity: 0.7;
         }
         p#about-description {
           margin-top: 15px;
-          
-          font-size: $font-size;
-          letter-spacing: 0.5px;
-          opacity: 0.7;
+
         }
         div.about-section {
           margin: 50px 0;
@@ -53,11 +68,22 @@ body {
             text-transform: uppercase;
           }
 
-          p.info-text {
-            margin: 20px;
+          ul.info-ul {
+
+          }
+          p {
             font-size: $font-size*0.8;
-            letter-spacing: 0.5px;
-            opacity: 0.7;
+            letter-spacing: $p-letter-space;
+            opacity: 0.5;
+          }
+          ul#info-ul {
+            margin: $p-margin;
+            li {
+              margin: 0 $p-margin;
+            }
+          }
+          p.info-text {
+            margin: $p-margin;
           }
         }
       }
