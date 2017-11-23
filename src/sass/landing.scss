@@ -1,5 +1,5 @@
 /* SASS for the landing page */
-
+@import '_mixins.scss';
 $monospaced: 'Andale Mono', 'Lucida Console', monospace;
 
 $btn-ease-timing: 1s;
@@ -142,7 +142,7 @@ html {
                       @media screen and (max-width: $max-width-m) {
                         padding-bottom: 0;
                       }
-                      a#no-link {
+                      a.no-link {
                         opacity: 0.6;
 
                         &:hover {
@@ -150,7 +150,22 @@ html {
                           background-color: #000;
                         }
                       }
-                      a.portfolio-button {
+                      a.hvr-grow {
+
+                        display: inline-block;
+                        vertical-align: middle;
+                        -webkit-transform: perspective(1px) translateZ(0);
+                        transform: perspective(1px) translateZ(0);
+                        box-shadow: 0 0 1px transparent;
+                        -webkit-transition-duration: 0.3s;
+                        transition-duration: 0.3s;
+                        -webkit-transition-property: transform;
+                        transition-property: transform;
+                        &:hover {
+                          transform: scale(1.1);
+                        }
+                      }
+                      a#portfolio-button {
                         margin-right: $spacing-var*0.5;
                         padding: 5px 20px;
 
@@ -160,12 +175,6 @@ html {
                         background-color: #000;
                         text-decoration: none;
 
-                        &:hover {
-                          color: #000;
-                          background-color: #fff;
-                          transition: color $btn-ease-timing ease 0s;
-                          transition: background-color $btn-ease-timing ease 0s;
-                        }
 
                         @media screen and (max-width: $max-width-tb) {
                           margin-bottom: 10px;

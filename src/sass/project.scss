@@ -43,15 +43,6 @@ body {
   height: 100%;
   width: 100%;
 
-  a.paragraph-link {
-    font-weight: 600;
-    text-decoration: none;
-
-    &:hover {
-      opacity: 0.5;
-      transition: opacity 1s ease 0s;
-    }
-  }
   section.project {
     height: 100%;
     width: 100%;

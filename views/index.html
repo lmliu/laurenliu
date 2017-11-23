@@ -39,16 +39,16 @@
                     <p class="project-description">&mdash; {{projectDesc}}</p>
                     <div class="project-button-row">
                       {{#if infoPath}}
-                        <a class="portfolio-button" href="/project/{{bkgClass}}">MORE INFO</a>
+                        <a id="portfolio-button" class="hvr-grow" href="/project/{{bkgClass}}">MORE INFO</a>
                       {{/if}}
                       {{#if comingSoon}}
-                        <a id="no-link" class="portfolio-button">DETAILS COMING SOON</a>
+                        <a id="portfolio-button" class="no-link">DETAILS COMING SOON</a>
                       {{/if}}
                       {{#if siteLink}}
                         {{#unless altProdTitle}}
-                          <a class="portfolio-button" href={{siteLink}} target="_blank" rel="noopener noreferrer">SITE LINK</a>
+                          <a id="portfolio-button" class="hvr-grow" href={{siteLink}} target="_blank" rel="noopener noreferrer">SITE LINK</a>
                         {{else}}
-                          <a class="portfolio-button" href={{siteLink}} target="_blank" rel="noopener noreferrer">{{altProdTitle}}</a>
+                          <a id="portfolio-button" class="hvr-grow" href={{siteLink}} target="_blank" rel="noopener noreferrer">{{altProdTitle}}</a>
                         {{/unless}}
                       {{/if}}
                     </div><!--project-button-row-->
