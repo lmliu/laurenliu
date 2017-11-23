@@ -14,7 +14,7 @@ exports.view = function(req,res) {
         'bkgClass': 'd4sd',
         'tag': both,
         'projectTitle': 'D4SD',
-        'projectDesc': 'D4SD was an online civic engagement platform that presented a challenge for San Diego citizens to design solutions for city issues. The site itself provides information and resources for the challenge.',
+        'projectDesc': 'D4SD was an online civic engagement platform that presented a challenge for San Diego citizens to design solutions for city issues. The site provides info and resources for the challenge.',
         'siteLink': 'https://d4sd.org',
         'infoPath': 'yes',
         'imgPath': '/img/preview-d4sd.png',
