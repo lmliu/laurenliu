@@ -76,7 +76,7 @@ exports.view = function(req,res) {
         'tag': dsgn,
         'projectTitle': 'A.V.I.C.S',
         'projectDesc': 'A.V.I.C.S is short for "Autonomous Vehicle Intent Communication System." It\'s a prototype for communication between self-driving cars and other entities that will share roads.',
-        'comingSoon': 'yes',
+        'infoPath': '/project',
         'altProdTitle': 'VIEW POSTER',
         'siteLink': '/hq/avics-poster.pdf',
         'imgPath': '/img/AVICS/poster-min.png',

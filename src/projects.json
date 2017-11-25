@@ -400,7 +400,7 @@
       "year": "2017",
       "projectTitle": "A.V.I.C.S",
       "detLabels": "DESIGN CONCEPT, PRINT DESIGN",
-      "detDescr": " A.V.I.C.S is short for \"Autonomous Vehicle Intent Communication System.\" It's a prototype for communication between self-driving cars and other entities that will share roads.",
+      "detDescr": " A.V.I.C.S is short for \"Autonomous Vehicle Intent Communication System.\" It's a prototype for communication between self-driving cars and other entities that will share roads. For our deliverable, I created a poster to showcase our user research process and our solution.",
       "leftImgPath": "/img/AVICS/poster-min.png",
       "siteLink": "/hq/avics-poster.pdf",
       "altText": "View Poster", 
@@ -420,68 +420,142 @@
         {
           "glanceTitle": "It Won Something",
           "glanceDet": "🏆 First place for Best Solution. All of the design projects produced in the class were judged by a panel of jurors including the Design Lab’s Don Norman."
-        }, 
-        {
-          "glanceTitle": "A Fun Fact",
-          "glanceDet": "This is the first project where I’ve prototyped a concept as opposed to a product."
         }
       ],
       "moreDet": 
       [
         {
+          "moreDetTitle": "The Solution",
+          "moreDetImgPath": [
+            "/img/AVICS/solution.png"
+          ],
+          "moreDetContent": [
+            "Our solution is an exterior interface that communicates the car’s intent to outside moving entities. There are two components, an icon that is displayed in the center of the window that communicates to pedestrians what the car expects them to do and a detection system that lets pedestrians know if the car is aware of their presence."
+          ]
+        },
+        {
           "moreDetTitle": "The Goal",
           "moreDetContent": 
           [
-            "To identify a problem from the broad issue of “Autonomous Vehicles,” to use Human-Centered Design to observe, ideate, and prototype a solution, and to use branding and visual design concepts to create an aesthetic and informative display to pitch the idea."
+            "To identify a problem from the broad issue of \"Autonomous Vehicles,\" to use Human-Centered Design to observe, ideate, and prototype a solution, and to use branding and visual design concepts to create an aesthetic and informative display to pitch the idea."
+          ]
+        },
+        {
+          "moreDetTitle": "The Background",
+          "moreDetContent": 
+          [
+            "San Diego has been greenlighted as one of the 10 nationally-approved testing grounds for Autonomous Vehicles (AVs). With advancing technology and a ready market, a future with autonomous vehicles is rapidly approaching. However, many people are unsure about a future with autonomous cars and how to interact with them.",
+            "Our team was tasked with a challenge to identify a specific problem within this scope and develop a solution for it. We used HCD techniques to design A.V.I.C.S, a prototype for communication between AVs and other entities that will share the roads."
           ]
         },
         {
           "moreDetTitle": "User Research",
+          "moreDetContent": 
+          [
+            "In order to discover the root-cause problem, <span class=\"det-highlights\">we interviewed a variety of people from various backgrounds</span>. This included academics, citizens, and a rideshare provider. We wanted to obtain observations and opinions from a diverse set of people. We felt that there was value in considering both the issues that academics discovered from empirical testing as well as the gut-reaction concerns raised by citizens. Judging by the reactionary behavior within politics to other hot-button issues, both factors will come to into play especially as political influencers stoke emotions to gain support for their side.",
+            "From our interviews, we identified four major trends:",
+            "<ol class=\"paragraph-ul\"><li class=\"paragraph-li\"><span class=\"takeaway-category\">Impending Future Change:</span> people are aware that AVs are inevitable.</span></li><li class=\"paragraph-li\"><span class=\"takeaway-category\">Trust Issues:</span> with little exposure to AVs, people trust themselves more than they trust software.</span></li><li class=\"paragraph-li\"><span class=\"takeaway-category\">Concerns with Unpredictable Situations:</span> AVs struggle with unpredictable actions, particularly the “first and last mile,” which for AVs is the period of driving on local roads.</span></li><li class=\"paragraph-li\"><span class=\"takeaway-category\">Transition Period Conflicts:</span> when AVs are introduced, there will be a transitory period where people will have to learn how to interact with AVs. During this period, there will be conflicts as people form new road habits to accommodate the change.</span></li></ol>"
+          ]
+        },
+        {
+          "moreDetTitle": "Personas",
           "moreDetImgPath": [
-            ""
+            "/img/AVICS/personas.png"
           ], 
           "moreDetContent": 
           [
-            "This Advertisement Banner was displayed at UCSD's Price Center. It was also used as the background for the Kickoff Event. "
+            "From these interviews, we created three personas. The three represented a retiree with concerns about handing the wheel over to software, a young adult who dislikes driving and is ready to hand over the keys, and a rideshare provider who has job safety concerns. The profiles are below and helped us think from the user's perspective."
           ]
         },
+        {
+          "moreDetTitle": "Problem Ideation",
+          "moreDetImgPath": [
+            "/img/AVICS/q-ideation.jpg"
+          ], 
+          "moreDetContent": 
+          [
+            "In order to narrow down our problem, we came up with broad questions that characterized the findings we found through our interviews. We then quickly developed solutions to each of these problems.",
+            "The questions that had the most potential were:",
+            "<ul id=\"glance-ul\"><li class=\"paragraph-li\">How can we create a reliable channel of communication between the driver and the AV?</li><li class=\"paragraph-li\">How can a car alert a pedestrian?</li></ul>",
+            "We ideated on these questions, deepening the scope as well as detailing parts of our solution."
+          ]
+        },
+        {
+          "moreDetTitle": "First Draft Prototype",
+          "moreDetContent": 
+          [
+            "Our first design focused more on created a channel of communication between the driver and the AV. One of our observations from our interviews was that a common fear was being in a collision caused by autonomous car that would have been preventable by human interference. In response to that, we developed a system where the driver would be alerted when a collision was going to happen.",
+            "We pinpointed that a type of situation this would be necessary in was one where the car would not be able to avoid a collision. For instance, the AV is boxed in on the highway by human drivers and another car starts drifting over the line. To avoid that car, our AV would inevitably have to collide with another car, and so it would be best for the passenger to exercise judgement and make the tough decision. Our solution was a prediction system that would calculate when an impending collision would occur, would give a series of sound and written notifications and statistics to bring the passenger up to speed, and then unlock the wheel and let the passenger take control.",
+            "We tested this idea through consulting experts and lay individuals and their critical feedback is summarized in the interview excerpts below:",
+            "<ul id=\"glance-ul\"><li class=\"paragraph-li\">\"I think the biggest draw of an AV is to be hands-off and disengaged aspect. With this system, it’s like the only difference is that my hands aren’t on the wheel, I would need to be paying as much attention as I would driving manually. And in that case, I wouldn’t spend the extra money getting an AV.\"</li><li class=\"paragraph-li\">\"If you think about texting on the road and how dangerous it is because of the reaction time problem, I’m not sure how impactful alerting someone would be.\"</li><li class=\"paragraph-li\">\"In situations where the car made the mistake, how would it be able to successfully predict a collision?”</li></ul>",
+            "Given that these were questions we felt we could not answer without substantial research that was outside the scope of our project, we decided to reframe our solution."
+          ]
+        },
+        {
+          "moreDetTitle": "Prototype Revision",
+          "moreDetImgPath": [
+            "/img/AVICS/q-post-its.jpg"
+          ], 
+          "moreDetContent": 
+          [
+            "We examined our two questions and found that there was a connection. They were both derivatives of the overarching question: <span class=\"det-highlights\">How can we establish trust between autonomous cars and humans?</span>",
+            "We revisited our postits for potential solutions and honed in on two ideas:",
+            "<ul id=\"glance-ul\"><li class=\"paragraph-li\">Haptic signals to communicate between the AV and the driver</li><li class=\"paragraph-li\">Visual digital display to receive constant feedback</li></ul>",
+            "But this time, rather than focusing exclusively on the driver, we focused on the pedestrian. One observation that came up for our Bay Area interviewees is that most of of their struggles did not revolve around crashes. Those, while terrifying, were rare. The real struggle was trying to share a road alongside a machine that followed the rules to the strictest degree.",
+            "Many drivers and pedestrians do not follow all of the rules of the road. They speed, they roll stops at stop signs, they don’t always signal, etc. This causes a need for necessary communication at places where people cross paths in order for traffic to flow smoothly. For instance, at an intersection, two cars might arrive at adjacent sides at the exact same time, and one car will wave the other on.",
+            "However, AVs can’t yet read these types of signals. What ends up happening in these situations is that the AV calculates who arrived at the intersection first, and if no one moves after a set amount of time, the AV will begin to move forward. If the other car moves even the slightest, the AV, detecting movement, will stop. This causes the flow to be disrupted, as the AV will continue to start and stop and impatient drivers at the intersection will cut it off, causing it to stall even more.",
+            "As a result, <span class=\"det-highlights\">we decided to frame our solution around this problem: how do we provide a system for self-driving cars to communicate to outside entities?</span>"
+          ]
+        },      
         {
           "moreDetTitle": "Storyboards",
           "moreDetImgPath": [
-            ""
+            "/img/AVICS/storyBoard.jpg"
           ], 
           "moreDetContent": 
           [
-            "This Advertisement Banner was displayed at UCSD's Price Center. It was also used as the background for the Kickoff Event. "
+            "To help visualize a narrative in which our prototype would be useful, we created storyboards."
           ]
         },
         {
-          "moreDetTitle": "Prototyping",
-          "moreDetImgPath": [
-            ""
-          ], 
+          "moreDetTitle": "Testing",
           "moreDetContent": 
           [
-            "This Advertisement Banner was displayed at UCSD's Price Center. It was also used as the background for the Kickoff Event. "
+            "Although we did not have enough time to test our prototype, we came up with a method to do so. We would have test participants sit at an intersection, as either drivers of other cars or pedestrians crossing the street, while we sat in the “AV” in the other (an individual would be driving the car in a autonomous-car like fashion and a passenger would have paper-prototypes of the signals to flash on the window of the car). The test subject would then try to cross the intersection and use signals to complete this process as smoothly as possible.",
+            "We would have used this information to inform us on the effectiveness of the model by analyzing recordings taken from the AV’s perspective, the test participant’s perspective, and bystanders from a corner of the intersection. We would have used metrics such as the number of stops made before the test subject successfully crossed the intersection, and the amount of time to quantify our analysis. We also would have interviewed the test subject to uncover additional observations."            
           ]
         },
         {
-          "moreDetTitle": "Presentation Event",
+          "moreDetTitle": "The Poster",
+          "moreDetImgPath": [], 
+          "moreDetContent": 
+          [
+            "I designed the poster for our project. The goal was to design a 3x5 foot poster that detailed the process of discovering and details of our solution. With the amount of information and text, information architecture became highly important. Our headers and subheaders all were designed to make the poster easy to parse through.",
+            "For organization, I broke the poster into three major sections: the background, the process, and the solution, and placed each section in a such a way that it could be easily and logically read. We inserted as many graphics as we could to break up the text. In some situations, namely our solution, graphics conveyed the information better than words could. A member of our team created a series of infographics to show to capabilities of our system."
+          ]
+        },
+        {
+          "moreDetTitle": "The Presentation Event",
           "moreDetImgPath": [
-            ""
+            "/img/AVICS/event-audience-min.jpg",
+            "/img/AVICS/event-presentation-min.jpg"
           ], 
           "moreDetContent": 
           [
-            "This Advertisement Banner was displayed at UCSD's Price Center. It was also used as the background for the Kickoff Event. "
+            "We presented our concept at a poster session at the end of the class. We were judged against 13 other teams on a number of criteria including thoroughness of user research, quality of proposed solution, and quality of the visual communication. The panel of jurors was composed of industry experts and included The Design Lab’s Don Norman.",
+            "(Our solution won!)"
           ]
         },
         {
           "moreDetTitle": "The Takeaway",
-          "moreDetImgPath": [
-            ""
-          ], 
           "moreDetContent": [
             "Especially on hot-button issues like autonomous vehicles, culture and previous experiences have deep influences on which concerns and benefits are important to the individual."
+          ]
+        },
+        {
+          "moreDetTitle": "Next Steps",
+          "moreDetContent": [
+            "The next steps for this project would be to conduct testing to see if the idea is viable. Details for our plan are listed in the \"Testing\" section above."
           ]
         }
       ]
