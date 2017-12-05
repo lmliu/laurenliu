@@ -288,6 +288,9 @@ body {
         
         div#proj-features {
           div.feat-row {
+            $features-max-width: 1200px;
+            $feat-img-max-width: 400px;
+            $feat-img-min-width: 250px;
             display: flex;
             align-items: center;
 
@@ -295,11 +298,16 @@ body {
 
             img.feat-img {
               height: auto;
-              max-width: 400px;
+              max-width: $feat-img-max-width;
+
+              @media (max-width: $features-max-width) and (min-width: $max-width-tb) {
+                max-width: $feat-img-min-width;
+              }
             }
 
             div.feat-details-wrap {
               width: 100%;
+              padding: 0 30px;
               h3, p {
                 text-align: center;
               }
