@@ -287,21 +287,27 @@ body {
         }
         
         div#proj-features {
+          @media screen and (max-width: $max-width-m) {
+            display: none;
+          }
           div.feat-row {
             $features-max-width: 1200px;
             $feat-img-max-width: 400px;
             $feat-img-min-width: 250px;
+            width: 100%;
             display: flex;
             align-items: center;
 
             margin: $section-spacing*2 0;
-
             img.feat-img {
               height: auto;
               max-width: $feat-img-max-width;
 
               @media (max-width: $features-max-width) and (min-width: $max-width-tb) {
                 max-width: $feat-img-min-width;
+              }
+              @media screen and (max-width: $max-width-m) {
+                width: 100%;
               }
             }
 
@@ -319,6 +325,7 @@ body {
           div.detail-section {
             width: 90%;
             margin: 0 0 $ds-marg-b $p-l-marg;
+
             h3 {
               margin-top: $header-par-marg*6;
               margin-bottom: $header-par-marg*2;
