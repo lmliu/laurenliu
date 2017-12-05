@@ -285,7 +285,27 @@ body {
             }
           }
         }
-      
+        
+        div#proj-features {
+          div.feat-row {
+            display: flex;
+            align-items: center;
+
+            margin: $section-spacing*2 0;
+
+            img.feat-img {
+              height: auto;
+              max-width: 400px;
+            }
+
+            div.feat-details-wrap {
+              width: 100%;
+              h3, p {
+                text-align: center;
+              }
+            }
+          }
+        }
 
         div#more-details {
           div.detail-section {

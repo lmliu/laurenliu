@@ -32,6 +32,38 @@
           "glanceDet": "<ul id=\"glance-articles\"><li><span class=\"article-src\">[SD TRIBUNE]</span> <a class=\"paragraph-link\" href=\"http://www.sandiegouniontribune.com/business/growth-development/sd-fi-mobility-20170915-story.html\" target=\"_blank\" rel=\"noopener noreferrer\">Public invited to all-night hackathon to solve San Diego's commuting nightmare</a></li><li><span class=\"article-src\">[UCSD NEWS]</span> <a class=\"paragraph-link\" href=\"http://ucsdnews.ucsd.edu/pressrelease/public-invited-to-design-solutions-to-our-citys-biggest-issues\" target=\"_blank\" rel=\"noopener noreferrer\">Public Invited to Design Solutions to Our City’s Biggest Issues</a></li><li><span class=\"article-src\">[PSN]</span> (en español) <a class=\"paragraph-link\" href=\"https://psn.si/desafian-poblacion-transporte/2017/09/\" target=\"_blank\" rel=\"noopener noreferrer\">Desafían a la población a enfrentar los problemas de transporte en San Diego</a></li><ul>"
         }
       ],
+      "projFeatures": [
+        {
+          "pageIMG": "/img/d4sd/features/home.png",
+          "pageAlt": "home page",
+          "featTitle": "Dive into the Challenge",
+          "featDetails": "d4sd.org provides a place for users to learn about the Design for San Diego civic design challenge. It contains relevant resources, links, updates, and contact information for participants.",
+          "pageIMG2": "/img/d4sd/features/challengebrief.png",
+          "pageAlt2": "Challenge Brief Page",
+          "featTitle2": "Learn about the Problem Space",
+          "featDetails2": "Read engaging articles about the challenges and information for specific problems in the design space."
+        },
+        {
+          "pageIMG": "/img/d4sd/features/resources.png",
+          "pageAlt": "resource page",
+          "featTitle": "Stay Up-to-Date",
+          "featDetails": "Our team provides a curated collection of external news articles relevant to various challenges.",
+          "pageIMG2": "/img/d4sd/features/getInvolved.png",
+          "pageAlt2": "Get Involved Page",
+          "featTitle2": "Get Involved",
+          "featDetails2": "Want to dive into the challenge? The site provides a control center to lauch users into the design process."
+        },
+        {
+          "pageIMG": "/img/d4sd/features/faq.png",
+          "pageAlt": "help center page",
+          "featTitle": "Help is Here",
+          "featDetails": "Read through our FAQs to get answers for any burning questions.",
+          "pageIMG2": "/img/d4sd/features/mobile.png",
+          "pageAlt2": "Mobile Version of Site",
+          "featTitle2": "On the Go?",
+          "featDetails2": "No worries, the site is responsive. Get everything right on your mobile phone."      
+        }
+      ],
       "moreDet": 
       [
         {

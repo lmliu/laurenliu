@@ -75,9 +75,36 @@
           </div><!-- #at-a-glance -->
         {{/if}}
 
+        {{#if projFeatures}}
+          <div id="proj-features" class="project-section">
+            <h2 class="details-expanded-header">Features &mdash;</h2><!-- .details-expanded-header -->
+            {{#each projFeatures}}
+              <div class="feat-row">
+                <div class="img-wrap">
+                  <img class="feat-img" src={{pageIMG}} alt={{pageAlt}} />
+                </div><!-- .img-wrap -->
+                <div class="feat-details-wrap">
+                  <h3>{{featTitle}}</h3>
+                  <p>{{featDetails}}</p>
+                </div><!-- .feat-details-wrap -->
+              </div><!-- .feat-row -->
+              <div class="feat-row">
+                <div class="feat-details-wrap">
+                  <h3>{{featTitle2}}</h3>
+                  <p>{{featDetails2}}</p>
+                </div><!-- .feat-details-wrap -->
+                <div class="img-wrap">
+                  <img class="feat-img" src={{pageIMG2}} alt={{pageAlt2}} />
+                </div><!-- .img-wrap -->
+              </div><!-- .feat-row -->
+            {{/each}}
+
+          </div><!-- #proj-features.project-section -->
+        {{/if}}
+
         {{#if moreDet}}
           <div id="more-details" class="project-section">
-            <h2 class="details-expanded-header">A More Detailed Look &mdash;</h2>
+            <h2 class="details-expanded-header">The Design Process &mdash;</h2>
             
             {{#each moreDet}}
               <div id="the-goal" class="detail-section">
