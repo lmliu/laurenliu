@@ -33,7 +33,7 @@
         }
       ],
       "projFeatures": [
-        {
+        { 
           "pageIMG": "/img/d4sd/features/home.png",
           "pageAlt": "home page",
           "featTitle": "Dive into the Challenge",
@@ -314,6 +314,28 @@
         {
           "glanceTitle": "A Fun Fact",
           "glanceDet": "Frank is short for “Be Frank,” which represented our angle for our site: a platform where users could provide brutally honest fashion feedback."
+        }
+      ],
+      "projFeatures": [
+        { 
+          "pageIMG": "/img/frank/features/login.png",
+          "pageAlt": "home page",
+          "featTitle": "Dive into the Challenge",
+          "featDetails": "d4sd.org provides a place for users to learn about the Design for San Diego civic design challenge. It contains relevant resources, links, updates, and contact information for participants.",
+          "pageIMG2": "/img/frank/features/home.png",
+          "pageAlt2": "Challenge Brief Page",
+          "featTitle2": "Learn about the Problem Space",
+          "featDetails2": "Read engaging articles about the challenges and information for specific problems in the design space."
+        },
+        {
+          "pageIMG": "/img/frank/features/search.png",
+          "pageAlt": "resource page",
+          "featTitle": "Stay Up-to-Date",
+          "featDetails": "Our team provides a curated collection of external news articles relevant to various challenges.",
+          "pageIMG2": "/img/frank/features/submit.png",
+          "pageAlt2": "Get Involved Page",
+          "featTitle2": "Get Involved",
+          "featDetails2": "Want to dive into the challenge? The site provides a control center to lauch users into the design process."
         }
       ],
       "moreDet": 
