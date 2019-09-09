@@ -292,16 +292,19 @@ body {
           }
           div.feat-row {
             $features-max-width: 1200px;
+            $feat-img-max-height: 400px;
             $feat-img-max-width: 400px;
             $feat-img-min-width: 250px;
             width: 100%;
             display: flex;
             align-items: center;
+            justify-content: space-around;
 
             margin: $section-spacing*2 0;
             img.feat-img {
               height: auto;
               max-width: $feat-img-max-width;
+              max-height: $feat-img-max-height;
 
               @media (max-width: $features-max-width) and (min-width: $max-width-tb) {
                 max-width: $feat-img-min-width;
@@ -314,8 +317,10 @@ body {
             div.feat-details-wrap {
               width: 100%;
               padding: 0 30px;
+
               h3, p {
                 text-align: center;
+                max-width: $feat-img-max-width;
               }
             }
           }
