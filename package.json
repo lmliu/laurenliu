@@ -23,7 +23,7 @@
     "compression": "*",
     "express": "*",
     "express-handlebars": "*",
-    "grunt": "^1.0.1",
+    "grunt": "^1.3.0",
     "gsap": "*",
     "hover.css": "^2.2.1",
     "morgan": "*",
